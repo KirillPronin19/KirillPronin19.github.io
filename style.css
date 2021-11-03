@@ -8,16 +8,12 @@ nav {
 	background: #344051;
 }
 
-
-}
-
 .logo{
 	color: white;
 	font-size: 28px;
 	line-height: 60px;
 	padding-left: 288px;
 	float: left;
-
 }
 
 .menu{
@@ -33,21 +29,20 @@ nav {
 	margin-right: 40px;
 	font-size: 13px;
 	text-transform: uppercase;
-
 }
 
 .main{
+	box-shadow: -30px 30px 20px rgba(0,0,0,0.3);
 	width: 100%;
 	height: 93%;
-	background: url(../img/3.png) 950px 195px/auto 85% no-repeat , url("../img/wood5.jpg") center/cover no-repeat;
+	background: url(../img/3.png) 950px 195px/auto 85% no-repeat ,
+				 url("../img/wood5.jpg") center/cover no-repeat;
 }
-
 .title__container{
 	float: left;
 	margin: 250px 0px 0px 270px;
 	color: rgb(44 56 74);
 	text-align: center;
-
 }
 
 .title__container h1{
@@ -63,31 +58,325 @@ nav {
 
 .title__container input{
 	height: 40px;
-	
-
-.blocks {
-	height: 70%;
+	text-align: center;
+	border: 2px solid #6d7682;
+	background: none;
+	border-radius: 5px;
+	color: #6d7682;
+	font-size: 16px;
+	padding: 0px 16px;
+	margin: 58px 14px 0px 14px;
 }
 
+.second {
+	padding-top: 40px;
+	width: 90%;
+	margin: 40px 5% 0px 5%;
 
 }
 
-.blocks h2{
-	font-size: 30px;
+.second h2{
+	font-size: 27px;
+	text-transform: uppercase;
 	font-weight: 600;
-	color: rgb(38 50 68);
-	margin: 0px 0px 0px 670px;
-	padding: 80px 0px 0px 0px;
+	text-align: center;
+	color: rgb(44 56 74);
+
 }
 
-.blocks p{
+.second p{
 	font-size: 16px;
 	text-align: center;
-	padding: 200px;
+	color: #000000;
+	margin: 60px 150px 50px 150px;
+}
+
+.second input {
+	height: 40px;
+	text-align: center;
+	border: 2px solid #708090;
+	background: none;
+	border-radius: 5px;
+	color: #708090;
+	font-size: 16px;
+	padding: 0px 16px;
+	margin: 38px 30px 70px 590px;
+}
+
+.three{
+	background: url(../img/ноут.png) 380px 270px/auto 5% no-repeat,
+				url(../img/граммофон.png) 1130px 270px/auto 5% no-repeat,
+				url(../img/знак.png) 610px 270px/auto 5% no-repeat,
+				url(../img/ракета.png) 870px 270px/auto 5% no-repeat,
+				url(../img/cherta.png) 720px 140px/auto 0.7% no-repeat,
+				url(../img/), url("../img/fon.jpg");
+	width: 100%;
+	height: 522px;
+	float: left;
+	padding-left: 350px;
+
+}
+
+.three h2{
+	font-size: 27px;
+	text-transform: uppercase;
+	font-weight: 600;
+	text-align: center;
+	color: rgb(44 56 74);
+	padding: 90px;
+	margin: 0px 500px 0px 160px;
+}
+
+.three li{
+	float: left;
+	margin: 120px 0px 30px 0px;
+	color: rgb(207,118,0);
+	margin-right: 150px;
+	font-size: 15px;
+	font-weight: 600;
+}
+
+.three p {
+	float: left;
+	color: black;
+	font-size: 14px;
+	line-height: 18px;
+	text-align: center;
+	margin-right: 105px;
+
 }
 
 
-input {
+.four {
+	background: url(../img/cherta.png) 720px 739px/auto 0.3% no-repeat ,
+				url(../img/фотка.png) 10px 850px/auto 37% no-repeat;
+	width: 100%;
+	height: 1600px;
+
+}
+
+.four h2{
+	font-size: 27px;
+	text-transform: uppercase;
+	font-weight: 600;
+	color: rgb(44 56 74);
+	padding-top: 700px;
+	margin-left: 715px;
+
+}
+
+.four p {
+	font-size: 14px;
+	margin: 50px 300px 0px 410px;
+	color: rgb(44 56 74);
+}
+
+
+.four h4{
+
+    font-size: 22px;
+	font-weight: 600;
+	color: rgb(44 56 74);
+	color: rgb(44 56 74);
+}
+
+.texta h4{
+	font-size: 23px;
+	margin: 550px 0px 0px 310px ;
+	color: rgb(44 56 74);
+}
+
+.textb h4{
+	font-size: 23px;
+	margin: 50px 0px 0px 310px ;
+	color: rgb(44 56 74);
+}
+
+.textc h4{
+	font-size: 23px;
+	margin: -93px 0px 0px 610px ;
+	color: rgb(44 56 74);
+}
+
+.A p {
 	font-size: 16px;
-	margin: 80px 0px 20px 670px;
+	color: rgb(44 56 74);
+	margin: 10px 0px 50px 300px;
+}
+
+.B p{
+	font-size: 16px;
+	color: rgb(44 56 74);
+	margin: 30px 0px 50px 300px;
+}
+
+.C p{
+	font-size: 16px;
+	color: rgb(44 56 74);
+	margin: -120px 300px 50px 610px;
+}
+
+.inputA input{
+	height: 40px;
+	text-align: center;
+	border: 2px solid rgb(99 181 174);
+	border-radius: 5px;
+	color: white;
+	font-size: 16px;
+	padding: 0px 16px;
+	margin: 10px 30px 70px 300px;
+	background-color: rgb(99 181 174);
+}
+
+.moneycash {
+	width: 100%;
+	height: 1200px; 
+}
+
+.moneycash h2{
+	margin: -600px 300px 0px 640px;
+	font-size: 27px;
+	text-transform: uppercase;
+	font-weight: 600;
+	color: rgb(44 56 74);
+}
+
+.ONE h4{
+	font-size: 22px;
+	margin: -170px 0px 40px 300px;
+}
+
+.ONE select{
+	margin: -500px 60px 100px 295px;
+	font-size: 35px;
+	border: 2px solid #C0C0C0;
+	padding: 0px 300px;
+	background-color: #C0C0C0;
+	opacity: 0.5;
+}
+
+.THREE h4{
+	font-size: 20px;
+	font-weight: 600;
+	color: black;
+	padding: 0px 0px 20px 305px;
+}
+
+.secondblockthree {
+	background: url(../img/cherta.png)720px 335px/auto 0.4% no-repeat,
+				url(../img/кубок.png)1110px 440px/auto 3% no-repeat,
+				url(../img/галочка.png)850px 440px/auto 3% no-repeat,
+				url(../img/скобки.png)610px 440px/auto 3% no-repeat ,
+	 			url(../img/смайл.png)370px 440px/auto 3% no-repeat,
+	 			url(../img/фон.jpg)-170px 190px/auto 60% no-repeat;
+	width: 100%;
+	height: 750px;
+	float: left;
+	padding-left: 350px;
+}
+
+.secondblockthree h2{
+	font-size: 27px;
+	text-transform: uppercase;
+	font-weight: 600;
+	text-align: center;
+	color: rgb(44 56 74);
+	padding: 90px;
+	margin: 200px 300px 0px 0px;
+}
+
+
+	
+.secondblockthree p {  
+	float: left;
+	color: black;
+	font-weight: 600;
+	font-size: 30px;
+	line-height: 18px;
+	margin: 100px 100px 40px 90px;
+}
+
+
+.secondblockthree li{
+	float: left;
+	color: black;
+	margin-right: 160px;
+	margin-left: -70px;
+	font-size: 18px;
+	font-weight: 600;
+}
+
+.otz {
+	background: url(../img/точка.png)770px 1920px/auto 0.5% no-repeat,
+				url(../img/оточка.png)750px 1920px/auto 0.5% no-repeat,
+				url(../img/точка2.png)790px 1920px/auto 0.5% no-repeat,
+				url(../img/mih.png)720px 1650px/auto 5% no-repeat,
+				url(../img/cherta.png)730px 1510px/auto 0.2% no-repeat; 
+	width: 100%;
+	height: 1950px;
+}
+
+.otz h2{
+	font-size: 28px;
+	padding-top: 800px;
+	padding-left: 700px;
+	text-transform: uppercase;
+	font-weight: 600;
+}
+
+.otz p{
+	font-size: 16px;
+	text-align: center;
+	color: #000000;
+	margin: 300px 150px 50px 150px;
+
+}
+
+
+.otz h4{
+	font-size: 14px;
+	margin: 50px 0px 0px 670px;
+	text-decoration: underline ;
+}
+
+.last {
+	background: url(../img/Слойфона.jpg)0px 100px/auto 80% no-repeat;
+	width: 100%;
+	height: 800px;
+}
+
+.last h2{
+	color: white;
+	font-size: 28px;
+	padding-left: 650px;
+	text-transform: uppercase;
+	font-weight: 600;
+	padding-top: 200px;
+
+}
+
+.last p {
+	color: white;
+	font-size: 14px;
+	text-align: center;
+	padding: 50px 160px 100px 100px;
+
+
+}
+
+.last h3 {
+	font-size: 16px;
+	color: white;
+	float: left;
+	margin: 0px 20px 20px 100px;
+	padding-left: 200px;
+}
+
+.post input{
+	padding: 10px 150px 10px 50px;
+	background-color: #DCDCDC;
+}
+
+.id1 {
+	padding: 200px 20px 20px 20px;
 }
