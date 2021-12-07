@@ -1,48 +1,80 @@
 body{
-	font-family: arial, sans-seris;
+	font-family: Oswald, sans-seris;
 }
 
 nav {
 	width: 100%;
 	height: 60px;
 	background: #344051;
+	position: fixed;
 }
 
 .logo{
 	color: white;
-	font-size: 28px;
+	font-size: 26px;
 	line-height: 60px;
-	padding-left: 288px;
 	float: left;
+	animation: comming 2s ease;
+}
+
+.main{
+	width: 100%;
+	height: 100%;
 }
 
 .menu{
 	float: left;
-	padding-left: 222px;
-
 }
 
-.menu li{
+.menu li {
 	float: left;
 	line-height: 60px;
-	color: white;
+	color: #fff;
 	margin-right: 40px;
-	font-size: 13px;
+	font-size: 14px;
+	text-decoration: none;
 	text-transform: uppercase;
+	animation: topshift 0.4s ease forwards;
+	opacity: 0;
+	
+}
+
+.menu li a{
+	color: #fff;
+	transition: all 0.1s;
+	color: white;
+	transform: scale(1);
+	display: inline-block;
+	text-decoration: none;
+}
+
+.menu li a:visited{
+	color: white;
+}
+
+.menu li a:hover{
+	color: #e88604;	
+}
+
+.menu li a:active{
+	transform: scale(1.1);
 }
 
 .main{
 	box-shadow: -30px 30px 20px rgba(0,0,0,0.3);
 	width: 100%;
 	height: 93%;
-	background: url(../img/3.png) 950px 195px/auto 85% no-repeat ,
-				 url("../img/wood5.jpg") center/cover no-repeat;
+	background: url("../img/3.png") 950px 195px/auto 85% no-repeat ,
+				url("../img/wood5.jpg") center/cover no-repeat;
 }
 .title__container{
 	float: left;
-	margin: 250px 0px 0px 270px;
+	padding-top: 300px;
 	color: rgb(44 56 74);
 	text-align: center;
+	opacity: 0;
+	animation: titlemove 1s ease forwards;
+	animation-delay: 2.4s;
 }
 
 .title__container h1{
@@ -51,7 +83,6 @@ nav {
 }
 
 .title__container h4{
-	margin-top: 23px;
 	font-size: 22px;
 	color: #696969;
 }
@@ -64,15 +95,74 @@ nav {
 	border-radius: 5px;
 	color: #6d7682;
 	font-size: 16px;
-	padding: 0px 16px;
-	margin: 58px 14px 0px 14px;
+	transition: all 0.2s;
+	transform: scale(1);
 }
 
-.second {
-	padding-top: 40px;
-	width: 90%;
-	margin: 40px 5% 0px 5%;
+.title__container input:hover{
+	background: #344051;
+	color: white;
+}
 
+.title__container input:active{
+	transform: scale(1.1);
+}
+
+
+@keyframes comming{
+	from{
+		opacity: 0;
+	}
+	to{
+		opacity: 1;
+	}
+}
+
+@keyframes topshift{
+	from{
+		opacity: 0;
+		margin-top: -80px;
+	}
+	to{
+		opacity: 1;
+		margin-top: 0px;
+	}
+}
+
+@keyframes titlemove{
+	from{
+		opacity: 0;
+		margin-left: -500px;
+	}
+	to{
+		opacity: 1;
+		margin-left: 270px;
+	}
+} 
+
+
+.menu li:nth-child(2){
+	animation-delay: 0.4s;
+}
+
+.menu li:nth-child(3){
+	animation-delay: 0.8s;
+}
+
+.menu li:nth-child(4){
+	animation-delay: 1.2s;
+}
+
+.menu li:nth-child(5){
+	animation-delay: 1.6s;
+}
+
+.menu li:nth-child(6){
+	animation-delay: 2s;
+}
+
+.second{
+	height: 400px;
 }
 
 .second h2{
@@ -81,14 +171,16 @@ nav {
 	font-weight: 600;
 	text-align: center;
 	color: rgb(44 56 74);
+	padding-top: 60px;
 
 }
 
 .second p{
-	font-size: 16px;
+	font-size: 14px;
 	text-align: center;
 	color: #000000;
-	margin: 60px 150px 50px 150px;
+	margin-top: 50px;
+	
 }
 
 .second input {
@@ -99,21 +191,31 @@ nav {
 	border-radius: 5px;
 	color: #708090;
 	font-size: 16px;
-	padding: 0px 16px;
-	margin: 38px 30px 70px 590px;
+	transition: all 0.2s;
+	transform: scale(1);
+	margin-left: 15px;
+}
+
+.second input:hover{
+	background: #344051;
+	color: white;
+}
+
+.second input:active{
+	transform: scale(1.1);
 }
 
 .three{
-	background: url(../img/ноут.png) 380px 270px/auto 5% no-repeat,
-				url(../img/граммофон.png) 1130px 270px/auto 5% no-repeat,
-				url(../img/знак.png) 610px 270px/auto 5% no-repeat,
-				url(../img/ракета.png) 870px 270px/auto 5% no-repeat,
-				url(../img/cherta.png) 720px 140px/auto 0.7% no-repeat,
-				url(../img/), url("../img/fon.jpg");
+	background: url(../img/ноут.png) 250px 270px/auto 5% no-repeat,
+					url(../img/граммофон.png) 1180px 270px/auto 5% no-repeat,
+						url(../img/знак.png) 550px 270px/auto 5% no-repeat,
+							url(../img/ракета.png) 870px 270px/auto 5% no-repeat,
+								url(../img/cherta.png) 720px 140px/auto 0.7% no-repeat,
+									url("../img/fon.jpg");
 	width: 100%;
 	height: 522px;
 	float: left;
-	padding-left: 350px;
+	
 
 }
 
@@ -123,37 +225,44 @@ nav {
 	font-weight: 600;
 	text-align: center;
 	color: rgb(44 56 74);
-	padding: 90px;
-	margin: 0px 500px 0px 160px;
+	margin-left: 10px;
+	margin-top: 60px;
 }
 
 .three li{
 	float: left;
-	margin: 120px 0px 30px 0px;
 	color: rgb(207,118,0);
-	margin-right: 150px;
 	font-size: 15px;
 	font-weight: 600;
-}
+	margin: 210px 0px 10px 0px;
+	padding-left: 230px;
+	}
 
 .three p {
 	float: left;
 	color: black;
 	font-size: 14px;
 	line-height: 18px;
-	text-align: center;
-	margin-right: 105px;
-
+	padding-left: 205px;
+	margin-top: 5px;
+	
 }
 
+.fixpr p{
+	float: left;
+	color: black;
+	font-size: 14px;
+	line-height: 18px;
+	margin-top: -80px;
+}
 
 .four {
-	background: url(../img/cherta.png) 720px 739px/auto 0.3% no-repeat ,
-				url(../img/фотка.png) 10px 850px/auto 37% no-repeat;
+	background: url(../img/cherta.png) 710px 739px/auto 0.3% no-repeat ,
+				url(../img/фотка.png) 50px 850px/auto 37% no-repeat;
 	width: 100%;
 	height: 1600px;
-
 }
+
 
 .four h2{
 	font-size: 27px;
@@ -167,7 +276,7 @@ nav {
 
 .four p {
 	font-size: 14px;
-	margin: 50px 300px 0px 410px;
+	margin: 50px 50px 0px 450px;
 	color: rgb(44 56 74);
 }
 
@@ -176,7 +285,6 @@ nav {
 
     font-size: 22px;
 	font-weight: 600;
-	color: rgb(44 56 74);
 	color: rgb(44 56 74);
 }
 
@@ -226,54 +334,96 @@ nav {
 	padding: 0px 16px;
 	margin: 10px 30px 70px 300px;
 	background-color: rgb(99 181 174);
+	transition: all 0.2s;
+	transform: scale(1);
 }
+
+.inputA input:hover{
+	background: rgb(99 181 174);
+	color: white;
+}
+
+.inputA input:active{
+	transform: scale(1.1);
+}
+
 
 .moneycash {
 	width: 100%;
-	height: 1200px; 
+	height: 650px;
 }
 
 .moneycash h2{
-	margin: -600px 300px 0px 640px;
 	font-size: 27px;
 	text-transform: uppercase;
 	font-weight: 600;
 	color: rgb(44 56 74);
+	margin: -600px 0px 0px 500px;
 }
 
 .ONE h4{
-	font-size: 22px;
-	margin: -170px 0px 40px 300px;
+	font-size: 20px;
+	margin: -170px 0px 40px 350px;
 }
 
-.ONE select{
-	margin: -500px 60px 100px 295px;
-	font-size: 35px;
-	border: 2px solid #C0C0C0;
-	padding: 0px 300px;
-	background-color: #C0C0C0;
-	opacity: 0.5;
+.forma {
+	margin-top: -210px;
+	margin-left: 115px; 
+}
+
+.formb {
+	margin-top: 70px;
+	margin-left: 115px; 
+}
+
+.formc {
+	margin-top: 70px;
+	margin-left: 115px; 
 }
 
 .THREE h4{
-	font-size: 20px;
-	font-weight: 600;
+	font-size: 18px;
+	font-weight: 400;
 	color: black;
-	padding: 0px 0px 20px 305px;
+	margin-left: -27px;
+	margin-top: 30px;
+}
+
+.inputAA input{
+	height: 40px;
+	text-align: center;
+	border: 2px solid rgb(99 181 174);
+	border-radius: 5px;
+	color: white;
+	font-size: 16px;
+	padding: 0px 16px;
+	margin: 10px 30px 70px 300px;
+	background-color: rgb(99 181 174);
+	transition: all 0.2s;
+	transform: scale(1);
+}
+
+.inputAA input:hover{
+	background: rgb(99 181 174);
+	color: white;
+}
+
+.inputAA input:active{
+	transform: scale(1.1);
 }
 
 .secondblockthree {
-	background: url(../img/cherta.png)720px 335px/auto 0.4% no-repeat,
-				url(../img/кубок.png)1110px 440px/auto 3% no-repeat,
-				url(../img/галочка.png)850px 440px/auto 3% no-repeat,
-				url(../img/скобки.png)610px 440px/auto 3% no-repeat ,
-	 			url(../img/смайл.png)370px 440px/auto 3% no-repeat,
-	 			url(../img/фон.jpg)-170px 190px/auto 60% no-repeat;
+	background: url(../img/cherta.png) 698px 145px/auto 0.8% no-repeat,
+				url(../img/скобки.png) 550px 280px/auto 10% no-repeat,
+				url(../img/смайл.png) 260px 280px/auto 10% no-repeat,
+				url(../img/кубок.png) 1180px 280px/auto 10% no-repeat,
+				url(../img/галочка.png) 865px 280px/auto 10% no-repeat,
+				url(../img/фон.jpg) 0px 0px/auto 95% no-repeat;
 	width: 100%;
-	height: 750px;
-	float: left;
-	padding-left: 350px;
+	height: 600px;
 }
+
+
 
 .secondblockthree h2{
 	font-size: 27px;
@@ -282,44 +432,40 @@ nav {
 	text-align: center;
 	color: rgb(44 56 74);
 	padding: 90px;
-	margin: 200px 300px 0px 0px;
+	margin: 0px 0px 0px 0px;
 }
 
 
-	
-.secondblockthree p {  
+.secondblockthree p{
 	float: left;
-	color: black;
-	font-weight: 600;
+	margin-left: 250px;
+	margin-top: 150px;
 	font-size: 30px;
-	line-height: 18px;
-	margin: 100px 100px 40px 90px;
+	font-weight: 600;
 }
-
 
 .secondblockthree li{
 	float: left;
-	color: black;
-	margin-right: 160px;
-	margin-left: -70px;
+	margin-left: 180px;
+	margin-top: 30px;
 	font-size: 18px;
-	font-weight: 600;
+	font-weight: 400;
 }
 
 .otz {
-	background: url(../img/точка.png)770px 1920px/auto 0.5% no-repeat,
-				url(../img/оточка.png)750px 1920px/auto 0.5% no-repeat,
-				url(../img/точка2.png)790px 1920px/auto 0.5% no-repeat,
-				url(../img/mih.png)720px 1650px/auto 5% no-repeat,
-				url(../img/cherta.png)730px 1510px/auto 0.2% no-repeat; 
+	background: url(../img/точка.png)750px 600px/auto 1.3% no-repeat,
+				url(../img/оточка.png)730px 600px/auto 1.3% no-repeat,
+				url(../img/точка2.png)770px 600px/auto 1.3% no-repeat,
+				url(../img/mih.png)703px 240px/auto 15% no-repeat,
+				url(../img/cherta.png)700px 150px/auto 0.7% no-repeat; 
 	width: 100%;
-	height: 1950px;
+	height: 650px;
 }
 
 .otz h2{
-	font-size: 28px;
-	padding-top: 800px;
-	padding-left: 700px;
+	font-size: 32px;
+	padding-top: 100px;
+	margin-left: 680px;
 	text-transform: uppercase;
 	font-weight: 600;
 }
@@ -335,23 +481,28 @@ nav {
 
 .otz h4{
 	font-size: 14px;
-	margin: 50px 0px 0px 670px;
+	margin: 50px 0px 100px 670px;
 	text-decoration: underline ;
 }
 
 .last {
-	background: url(../img/Слойфона.jpg)0px 100px/auto 80% no-repeat;
+	background:
+				url(../img/труба.png)1175px 400px/auto 3% no-repeat,
+				url(../img/конверт.png)745px 400px/auto 3% no-repeat,
+				url(../img/гео.png)340px 400px/auto 3% no-repeat,
+				url(../img/cherta.png)710px 200px/auto 0.5% no-repeat,
+				url(../img/Слойфона.jpg)-400px 50px/auto 100% no-repeat;
 	width: 100%;
-	height: 800px;
+	height: 900px;
 }
 
 .last h2{
 	color: white;
 	font-size: 28px;
-	padding-left: 650px;
+	margin-left: 660px;
 	text-transform: uppercase;
 	font-weight: 600;
-	padding-top: 200px;
+	padding-top: 150px;
 
 }
 
@@ -359,24 +510,104 @@ nav {
 	color: white;
 	font-size: 14px;
 	text-align: center;
-	padding: 50px 160px 100px 100px;
+	margin-left: 50px;
+	margin-top: 50px;
 
 
+}
+
+.last h4{
+	color: white;
+	font-size: 15px;
+	padding-left: 600px;
+	text-transform: uppercase;
+	font-weight: 600;
+	padding-top: 250px;
+	padding-left: 670px;
 }
 
 .last h3 {
 	font-size: 16px;
 	color: white;
 	float: left;
-	margin: 0px 20px 20px 100px;
-	padding-left: 200px;
+	margin: 180px 25px 50px 100px;
+	padding-left: 220px;
 }
 
-.post input{
-	padding: 10px 150px 10px 50px;
-	background-color: #DCDCDC;
+.mb-3 {
+	margin: 50px 400px 0px 400px;
 }
 
-.id1 {
-	padding: 200px 20px 20px 20px;
+.form-floating {
+	margin: 50px 400px 0px 400px;
+}
+
+.lockdown input{
+	height: 40px;
+	text-align: center;
+	border: 2px solid white;
+	background: none;
+	border-radius: 5px;
+	color: white;
+	font-size: 16px;
+	padding: 0px 16px;
+	transition: all 0.2s;
+	transform: scale(1);
+	margin: 10px 0px 0px 710px; 
+}
+
+.lockdown input:hover{
+	background: rgb(99 181 174);
+	color: white;
+}
+
+.lockdown input:active{
+	transform: scale(1.1);
+}
+
+.maps {
+	background: url(../img/карта.jpg)0px 38px/auto 69% no-repeat;
+	width: 100%;
+	height: 450px;
+	margin-top: -40px;
+}
+
+.eng {
+	margin: -200px 0px 0px 550px;
+}
+
+.eng input{
+	height: 40px;
+	text-align: center;
+	border: 2px solid black;
+	background: white;
+	border-radius: 2px;
+	color: black;
+	font-size: 16px;
+	padding: 0px 16px;
+	box-shadow: -5px -5px 5px #888;
+}
+
+.eng input:hover{
+	background: rgb(99 181 174);
+	color: white;
+}
+
+.eng input:active{
+	transform: scale(1.1);
+}
+
+.outro{
+	width: 100%;
+	height: 100px;
+	background: #344051;
+	margin-top: 53px;
+}
+
+.outro p {
+	color: white;
+	text-align: center;
+	padding-top: 40px;
+	margin-right: 400px;
+	font-weight: 200;
 }
