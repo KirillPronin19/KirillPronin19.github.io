@@ -7,6 +7,7 @@ nav {
 	height: 60px;
 	background: #344051;
 	position: fixed;
+	z-index: 3;
 }
 
 .logo{
@@ -67,11 +68,20 @@ nav {
 	background: url("../img/3.png") 950px 195px/auto 85% no-repeat ,
 				url("../img/wood5.jpg") center/cover no-repeat;
 }
+
+.main h4{
+	
+}
+ .main input{
+ 	padding:0px 10px 0px 10px;
+ 	margin: 10px;
+ }
+
 .title__container{
 	float: left;
-	padding-top: 300px;
 	color: rgb(44 56 74);
 	text-align: center;
+	width: 100%;
 	opacity: 0;
 	animation: titlemove 1s ease forwards;
 	animation-delay: 2.4s;
@@ -206,11 +216,11 @@ nav {
 }
 
 .three{
-	background: url(../img/ноут.png) 250px 270px/auto 5% no-repeat,
+	background: /*url(../img/ноут.png) 250px 270px/auto 5% no-repeat,
 					url(../img/граммофон.png) 1180px 270px/auto 5% no-repeat,
 						url(../img/знак.png) 550px 270px/auto 5% no-repeat,
 							url(../img/ракета.png) 870px 270px/auto 5% no-repeat,
-								url(../img/cherta.png) 720px 140px/auto 0.7% no-repeat,
+								url(../img/cherta.png) 720px 140px/auto 0.7% no-repeat,*/
 									url("../img/fon.jpg");
 	width: 100%;
 	height: 522px;
@@ -219,17 +229,15 @@ nav {
 
 }
 
-.three h2{
-	font-size: 27px;
-	text-transform: uppercase;
-	font-weight: 600;
-	text-align: center;
-	color: rgb(44 56 74);
-	margin-left: 10px;
-	margin-top: 60px;
+.three h2 {
+	padding-top: 20px;
 }
 
-.three li{
+.three h3{
+	color: rgb(234,119,0)
+}
+
+/*.threeE li{
 	float: left;
 	color: rgb(207,118,0);
 	font-size: 15px;
@@ -243,24 +251,27 @@ nav {
 	color: black;
 	font-size: 14px;
 	line-height: 18px;
-	padding-left: 205px;
-	margin-top: 5px;
 	
-}
+}*/
 
-.fixpr p{
+
+
+/*.fixpr p{
 	float: left;
 	color: black;
 	font-size: 14px;
 	line-height: 18px;
 	margin-top: -80px;
-}
+}*/
 
 .four {
-	background: url(../img/cherta.png) 710px 739px/auto 0.3% no-repeat ,
-				url(../img/фотка.png) 50px 850px/auto 37% no-repeat;
+	background: url(../img/cherta.png) 618px 415px/auto 0.5% no-repeat ,
+				url(../img/фотка.png) -50px 550px/auto 60% no-repeat;
+	}
+
+.four {
 	width: 100%;
-	height: 1600px;
+	height: 1000px;
 }
 
 
@@ -269,53 +280,58 @@ nav {
 	text-transform: uppercase;
 	font-weight: 600;
 	color: rgb(44 56 74);
-	padding-top: 700px;
-	margin-left: 715px;
+	padding-top: 350px;
+    margin-left: 610px;
+}
 
+@media all and (max-width: 1200px){
+	h2 {
+		margin-left: 110px; 
+	}
 }
 
 .four p {
-	font-size: 14px;
-	margin: 50px 50px 0px 450px;
+	font-size: 16px;
 	color: rgb(44 56 74);
+	margin-top: 110px;
+	padding-left: 320px;
 }
 
 
-.four h4{
-
+/*.four h4{
     font-size: 22px;
 	font-weight: 600;
 	color: rgb(44 56 74);
-}
+}*/
 
 .texta h4{
 	font-size: 23px;
-	margin: 550px 0px 0px 310px ;
+	margin: 50px 0px 0px 230px ;
 	color: rgb(44 56 74);
 }
 
 .textb h4{
 	font-size: 23px;
-	margin: 50px 0px 0px 310px ;
+	margin: 50px 0px 0px 230px ;
 	color: rgb(44 56 74);
 }
 
 .textc h4{
 	font-size: 23px;
-	margin: -93px 0px 0px 610px ;
+	margin: -93px 0px 0px 610px;
 	color: rgb(44 56 74);
 }
 
 .A p {
 	font-size: 16px;
 	color: rgb(44 56 74);
-	margin: 10px 0px 50px 300px;
+	margin: 10px 0px 50px 230px;
 }
 
 .B p{
 	font-size: 16px;
 	color: rgb(44 56 74);
-	margin: 30px 0px 50px 300px;
+	margin: 30px 0px 50px 230px;
 }
 
 .C p{
@@ -323,6 +339,7 @@ nav {
 	color: rgb(44 56 74);
 	margin: -120px 300px 50px 610px;
 }
+
 
 .inputA input{
 	height: 40px;
@@ -332,7 +349,7 @@ nav {
 	color: white;
 	font-size: 16px;
 	padding: 0px 16px;
-	margin: 10px 30px 70px 300px;
+	margin: 10px 30px 70px 230px;
 	background-color: rgb(99 181 174);
 	transition: all 0.2s;
 	transform: scale(1);
@@ -348,6 +365,8 @@ nav {
 }
 
 
+
+
 .moneycash {
 	width: 100%;
 	height: 650px;
@@ -358,12 +377,12 @@ nav {
 	text-transform: uppercase;
 	font-weight: 600;
 	color: rgb(44 56 74);
-	margin: -600px 0px 0px 500px;
+	margin: 100px 0px 0px 450px;
 }
 
 .ONE h4{
 	font-size: 20px;
-	margin: -170px 0px 40px 350px;
+	margin: -170px 0px 40px 320px;
 }
 
 .forma {
@@ -385,7 +404,7 @@ nav {
 	font-size: 18px;
 	font-weight: 400;
 	color: black;
-	margin-left: -27px;
+	margin-left: -10px;
 	margin-top: 30px;
 }
 
@@ -397,7 +416,7 @@ nav {
 	color: white;
 	font-size: 16px;
 	padding: 0px 16px;
-	margin: 10px 30px 70px 300px;
+	margin: 10px 30px 70px 200px;
 	background-color: rgb(99 181 174);
 	transition: all 0.2s;
 	transform: scale(1);
@@ -610,4 +629,8 @@ nav {
 	padding-top: 40px;
 	margin-right: 400px;
 	font-weight: 200;
+}
+
+.white-btn:visited {
+	color: white;
 }
