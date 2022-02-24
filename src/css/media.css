@@ -1,0 +1,1207 @@
+
+@media only screen and (max-width: 1470px){
+
+	/*Тетий блок (Что я умею)*/
+
+	.three{
+		background: url(../img/граммофон.png)1100px 260px /auto 10% no-repeat,
+				url(../img/ракета.png)820px 210px /auto 10% no-repeat,
+				url(../img/знак.png)490px 150px /auto 10% no-repeat,
+				url(../img/ноут.png)135px 100px /auto 10% no-repeat,
+				url(../img/kartinkafona.jpg)0px 0px /auto 100% no-repeat fixed;
+		width: 100%;
+	}
+
+	/*Пятый кейс (Расчет стоимости)*/
+
+	.moneyblock {
+		background: url(../img/wing.png)1100px 270px /auto 30% no-repeat,
+				url(../img/cerkon.png)100px 240px /auto 35% no-repeat;
+	
+	
+}
+
+}
+
+
+@media only screen and (max-width: 1400px){
+
+	/*Первый блок (Главный блок. Имя и картинки)*/
+
+	.menu {
+		padding-left: 532px;
+	}
+
+	.title__container{
+		margin: 290px 0px 0px 150px;
+	}
+
+	.first{
+		background:url(../img/art3.png)700px 200px /auto 60% no-repeat; 
+	}
+
+	/*Второй блок (Обо мне)*/
+
+	.second button {
+		margin-left: 630px;
+		margin-top: 300px;
+	}
+
+	.second {
+		background: url(../img/prog.png)550px 150px/auto 50% no-repeat;
+	}
+
+	/*Тетий блок (Что я умею)*/
+
+
+	.typeA p {
+		margin-top: 80px;
+		margin-left: 100px;
+	}
+
+	.perviy p {
+		margin-top: -160px;
+		margin-left: 100px;
+	}
+
+	/**/
+
+	.typeB p {
+		margin-top: 0px;
+		margin-left: 450px;
+	}
+
+	.vtoroi p {
+		margin-top: -25px;
+		margin-left: 450px;
+	}
+
+	/**/
+
+	.typeC p {
+		margin-top: 0px;
+		margin-left: 750px;
+	}
+
+	.tretyi p {
+		margin-top: -30px;
+		margin-left: 750px;
+	}
+	
+	/**/
+
+	.typeD p {
+		margin-top: 0px;
+		margin-left: 1050px;
+	}
+
+	.chetvertiy p {
+		margin-top: -30px;
+		margin-left: 1050px;
+	}
+
+	/*Пятый кейс (Расчет стоимости)*/
+
+	.moneyblock {
+		background: url(../img/wing.png)980px 270px /auto 30% no-repeat,
+				url(../img/cerkon.png)100px 240px /auto 35% no-repeat;
+	}
+
+	/*Шестой блок (Статистика)*/
+
+
+
+	/*седьмой блок (отзывы)*/
+
+	.reviews {
+		background: url(../img/copy.png) 720px 380px /auto 2% no-repeat,
+				url(../img/копия.png) 680px 380px /auto 2% no-repeat,
+				url(../img/Оранж.png) 640px 380px /auto 2% no-repeat,
+				url(../img/img_442292.png) 650px 120px /auto 25% no-repeat;
+		height: 500px;
+	}
+
+
+	/*восьмой блок (контакты)*/
+
+	.underContackt li {
+		padding-left: 260px;
+	}
+
+	.contackt {
+	background: url(../img/tryba.png)800px 220px /auto 5% no-repeat,
+				url(../img/konvert.png)380px 220px /auto 5% no-repeat,
+				url(../img/pgpgpgp.jpg)0px 0px /auto 120% no-repeat;
+	}
+
+	.contackt button {
+		margin-left: 630px;
+	}
+	
+	/*Шестой блок (Статистика)*/
+
+	.A p {
+		padding-left: 1050px;
+		padding-top: 150px;
+	}
+
+	.b p {
+		padding-left: 800px;
+		margin-top: -45px;
+	}
+
+	.c p {
+		padding-left: 500px;
+		margin-top: -50px;
+	}
+
+	.d p {
+		padding-left: 200px;
+		margin-top: -50px;	
+	}
+
+	.myStatCLient p {
+		margin-left: 100px;
+	}
+
+	.myStatCLientTwo p {
+		margin-left: 460px;	
+		margin-top: -35px;
+	}
+
+	.myStatCLientTree p {
+		margin-left: 720px;	
+		margin-top: -37px;
+	}
+
+	.myStatCLientFour p {
+		margin-left: 980px;
+		margin-top: -40px;
+	}
+
+}
+
+
+	
+@media only screen and (max-width: 1200px){
+
+	/*Первый блок (Главный блок. Имя и картинки)*/
+
+	.menu li{
+		margin-right: 20px;
+	}
+
+	.first{
+		background:url(../img/art3.png)500px 400px /auto 60% no-repeat; 
+	}
+
+	/*Второй блок (Обо мне)*/
+
+	.second {
+		background: url(../img/prog.png)430px 150px/auto 50% no-repeat;
+	}
+
+	.second button {
+		margin-left: 530px;
+	}
+
+	/*третий блок (что я умею)*/
+
+	.three{
+		background: url(../img/граммофон.png)1000px 260px /auto 10% no-repeat,
+				url(../img/ракета.png)720px 210px /auto 10% no-repeat,
+				url(../img/знак.png)410px 150px /auto 10% no-repeat,
+				url(../img/ноут.png)135px 100px /auto 10% no-repeat,
+				url(../img/kartinkafona.jpg)0px 0px /auto 100% no-repeat fixed;
+		width: 100%;
+	}
+
+
+	.typeB p {
+		margin-top: 0px;
+		margin-left: 370px;
+	}
+
+	.vtoroi p {
+		margin-top: -25px;
+		margin-left: 370px;
+	}
+
+	/**/
+
+	.typeC p {
+		margin-top: 0px;
+		margin-left: 650px;
+	}
+
+	.tretyi p {
+		margin-top: -30px;
+		margin-left: 650px;
+	}
+	
+	/**/
+
+	.typeD p {
+		margin-top: 0px;
+		margin-left: 950px;
+	}
+
+	.chetvertiy p {
+		margin-top: -30px;
+		margin-left: 950px;
+	}
+
+	/**/
+
+	/*Четвертый блок (Кейсы)*/
+
+	.case {
+		background: 
+				url(../img/fonka.png)-150px 200px /auto 75% no-repeat;
+	}
+
+	.client h3 {
+		padding-left: 150px;
+	}
+
+	/**/
+
+	.website h3 {
+		padding-left: 150px;
+	}
+
+	.website button {
+		margin-left: 140px;
+	}
+
+	/*Пятый кейс (Расчет стоимости)*/
+
+	.moneyblock {
+		background: url(../img/wing.png)800px 270px /auto 30% no-repeat,
+				url(../img/cerkon.png)100px 240px /auto 35% no-repeat;
+	
+	}
+
+	.sroki p {
+		padding-left: 800px;
+		margin-top: -30px;
+		font-weight: 800;
+		font-size: 22px;
+	}
+
+	.price p {
+		padding-left: 800px;
+		margin-top: -30px;
+		font-weight: 800;
+		font-size: 22px;
+	}
+
+	/*седьмой блок (отзывы)*/
+
+	.reviews {
+		background: url(../img/copy.png) 630px 380px /auto 2% no-repeat,
+				url(../img/копия.png) 590px 380px /auto 2% no-repeat,
+				url(../img/Оранж.png) 550px 380px /auto 2% no-repeat,
+				url(../img/img_442292.png) 560px 120px /auto 25% no-repeat;
+		height: 500px;
+	}
+
+	/*восьмой блок (контакты)*/
+
+	.input-group {
+		padding-left: 400px;
+		padding-right: 400px;
+	}
+
+	.mb-3 {
+		padding-left: 400px;
+		padding-right: 400px;
+	}
+
+	.contackt button {
+		margin-top: 25px;
+		margin-left: 530px;
+	}
+
+	/*Шестой блок (Статистика)*/
+
+	.textUnderSix {
+		height: 600px;
+	}
+
+	.A p {
+		padding-left: 200px;
+		padding-top: 50px;
+	}
+
+	.b p {
+		padding-left: 200px;
+		margin-top: 200px;
+	}
+
+	.c p {
+		padding-left: 610px;
+		margin-top: -287px;
+	}
+
+	.d p {
+		padding-left: 620px;
+		margin-top: 205px;	
+	}
+
+	.myStatCLient p {
+		margin-left: 100px;
+		margin-top: -240px;
+	}
+
+	.myStatCLientTwo p {
+		margin-left: 560px;	
+		margin-top: -35px;
+	}
+
+	.myStatCLientTree p {
+		margin-left: 120px;	
+		margin-top: 200px;
+	}
+
+	.myStatCLientFour p {
+		margin-left: 560px;
+		margin-top: -37px;
+	}
+
+	
+}
+
+@media only screen and (max-width: 1196px){
+
+	/*Второй блок (Обо мне)*/
+
+	.second button {
+		margin-top: 280px;
+	}
+}
+
+@media only screen and (max-width: 1076px){
+
+	/*Первый блок (Главный блок. Имя и картинки)*/
+
+	.menu {
+		padding-left: 432px;
+	}
+}
+
+
+@media only screen and (max-width: 1100px){
+
+	 	/*третий блок (обо мне)*/
+
+	.three {
+		height: 550px;
+	}
+
+	/**/
+
+	.typeD p {
+		margin-left: 850px;
+	}
+
+	.chetvertiy p {
+		margin-top: -30px;
+		margin-left: 850px;
+	}
+
+	/**/
+
+	.typeC p {
+		margin-top: 0px;
+		margin-left: 600px;
+	}
+
+	.tretyi p {
+		margin-top: -30px;
+		margin-left: 600px;
+	}
+
+
+	.three {
+		background: url(../img/граммофон.png)890px 250px /auto 10% no-repeat,
+				url(../img/ракета.png)670px 200px /auto 10% no-repeat,
+				url(../img/знак.png)410px 150px /auto 10% no-repeat,
+				url(../img/ноут.png)135px 100px /auto 10% no-repeat,
+				url(../img/kartinkafona.jpg)0px 0px /auto 100% no-repeat fixed;
+	}
+
+	/*пятый блок (расчет стоимости)*/
+
+	.firstPoint {
+		padding-left: 400px;
+		padding-right: 300px;
+	}
+
+	.secondPoint {
+		padding-left: 400px;
+		padding-right: 300px;
+	}
+
+	.theePoint {
+		padding-left: 400px;
+		padding-right: 300px;
+	}
+
+}
+
+
+@media only screen and (max-width: 992px){
+
+	/*Первый блок (Главный блок. Имя и картинки)*/
+
+	.first{
+		background:url(../img/art3.png)170px 550px /auto 60% no-repeat;
+	}
+
+	/*Второй блок (Обо мне)*/
+
+	.second button{
+		margin-left: 430px;
+	}
+
+	.second {
+		background: url(../img/prog.png)330px 150px/auto 50% no-repeat;
+	}
+
+	/*третий блок (обо мне)*/
+
+	.typeA p {
+		margin-top: 140px;
+		margin-left: 170px;
+		font-size: 28px;
+	}
+
+	.perviy p {
+		margin-top: -220px;
+		margin-left: 170px;
+	}
+
+	/**/
+
+	.typeB p {
+		margin-top: -50px;
+		margin-left: 650px;
+		font-size: 28px;
+	}
+
+	.vtoroi p {
+		margin-top: -74px;
+		margin-left: 655px;
+	}
+
+	/**/
+
+	.typeC p {
+		margin-top: 200px;
+		margin-left: 175px;
+		font-size: 28px;
+	}
+
+	.tretyi p {
+		margin-top: 160px;
+		margin-left: 177px;
+	}
+	
+	/**/
+
+	.typeD p {
+		margin-top: -50px;
+		margin-left: 650px;
+		font-size: 28px;
+	}
+
+	.chetvertiy p {
+		margin-top: -77px;
+		margin-left: 650px;
+	}
+
+	/**/
+
+
+	.three {
+		background: url(../img/граммофон.png)705px 420px /auto 5% no-repeat,
+				url(../img/ракета.png)700px 180px /auto 5% no-repeat,
+				url(../img/знак.png)220px 420px /auto 5% no-repeat,
+				url(../img/ноут.png)210px 180px /auto 5% no-repeat,
+				url(../img/kartinkafona.jpg)0px 0px /auto 100% no-repeat fixed;
+	}
+
+	.three {
+		height: 700px;
+	}
+
+	/*Четвертый блок (Кейсы)*/
+
+	.case {
+		background: 
+				url(../img/fonka.png)-100px 200px /auto 60% no-repeat;
+	}
+
+	/**/
+
+	.client p {
+		margin-left: -620px;
+		margin-top: -50px;
+	}
+
+	/**/
+
+	.website p {
+		margin-left: -620px;
+		margin-top: -50px;
+	}
+
+	/**/
+
+	.combo p {
+		padding-left: 320px;
+		margin-top: -45px;
+	}
+
+	/*пятый блок (расчет стоимости)*/
+
+	.moneyblock {
+		background: url(../img/wing.png)100px 450px /auto 20% no-repeat,
+				url(../img/cerkon.png)50px 240px /auto 25% no-repeat;
+	
+	}
+
+	.firstPoint {
+		padding-left: 400px;
+		padding-right: 200px;
+	}
+
+	.secondPoint {
+		padding-left: 400px;
+		padding-right: 200px;
+	}
+
+	.theePoint {
+		padding-left: 400px;
+		padding-right: 200px;
+	}
+
+		/*седьмой блок (отзывы)*/
+
+	.reviews {
+		background: url(../img/copy.png) 530px 380px /auto 2% no-repeat,
+				url(../img/копия.png) 490px 380px /auto 2% no-repeat,
+				url(../img/Оранж.png) 450px 380px /auto 2% no-repeat,
+				url(../img/img_442292.png) 460px 120px /auto 25% no-repeat;
+		height: 500px;
+	}
+
+	/*восьмой блок (контакты)*/
+
+	.contackt {
+		background: url(../img/tryba.png)400px 300px /auto 5% no-repeat,
+				url(../img/konvert.png)400px 200px /auto 5% no-repeat,
+				url(../img/pgpgpgp.jpg)0px 0px /auto 120% no-repeat;
+	}
+
+	.input-group {
+		padding-left: 350px;
+		padding-right: 350px;
+	}
+
+	.mb-3 {
+		padding-left: 350px;
+		padding-right: 350px;
+	}
+
+	.contackt button {
+		margin-top: 25px;
+		margin-left: 470px;
+	}
+
+	.underContackt li {
+		float: none;
+		color: white;
+		padding-top: 100px;
+		padding-left: 360px;
+	}
+
+	.contackt {
+		height: 1000px;
+	}
+
+	
+}
+
+@media only screen and (max-width: 870px){
+
+	/*Тетий блок (Что я умею)*/
+
+	.typeB p {
+		margin-left: 550px;
+	}
+
+	.vtoroi p {
+		margin-left: 555px;
+	}
+
+	/**/
+
+	.typeD p {
+		margin-left: 550px;
+	}
+
+	.chetvertiy p {
+		margin-left: 550px;
+	}
+
+	.three {
+		background: url(../img/граммофон.png)600px 425px /auto 5% no-repeat,
+				url(../img/ракета.png)600px 180px /auto 5% no-repeat,
+				url(../img/знак.png)220px 420px /auto 5% no-repeat,
+				url(../img/ноут.png)210px 180px /auto 5% no-repeat,
+				url(../img/kartinkafona.jpg)0px 0px /auto 100% no-repeat fixed;
+	}
+
+	/*Четвертый блок (Кейсы)*/
+
+	.case {
+		background: 
+				url(../img/fonka.png)-100px 200px /auto 40% no-repeat;
+				height: 1000px;
+	}
+
+	/**/
+
+	.client h3 {
+		margin-top: 400px;
+	}
+
+	/**/
+
+	.client p {
+		margin-left: -450px;
+		margin-top: -50px;
+	}
+
+	/**/
+
+	.website p {
+		margin-left: -450px;
+		margin-top: -50px;
+	}
+
+	/**/
+
+	.nameProjeckt h3 {
+		padding-left: 150px;
+		margin-top: -240px;
+	}
+
+	.combo p {
+		padding-left: 40px;
+		margin-top: -45px;
+	}
+
+	/**/
+
+	.website button {
+		margin-top: 200px;
+	}
+
+	/*пятый блок (расчет стоимости)*/
+
+	.sroki p {
+		padding-left: 650px;
+		margin-top: -30px;
+		font-weight: 800;
+		font-size: 22px;
+	}
+
+	.price p {
+		padding-left: 650px;
+		margin-top: -30px;
+		font-weight: 800;
+		font-size: 22px;
+	}
+
+	.firstPoint {
+		padding-left: 300px;
+		padding-right: 200px;
+	}
+
+	.secondPoint {
+		padding-left: 300px;
+		padding-right: 200px;
+	}
+
+	.theePoint {
+		padding-left: 300px;
+		padding-right: 200px;
+	}
+
+	.sroki h3 {
+		padding-top: 50px;
+		padding-left: 302px;
+	}
+
+	.price h3 {
+		padding-top: 10px;
+		padding-left: 302px;
+	}
+
+	/*восьмой блок (контакты)*/
+
+	.contackt {
+		background: url(../img/tryba.png)300px 300px /auto 5% no-repeat,
+				url(../img/konvert.png)300px 200px /auto 5% no-repeat,
+				url(../img/pgpgpgp.jpg)0px 0px /auto 120% no-repeat;
+	}
+
+	.input-group {
+		padding-left: 250px;
+		padding-right: 250px;
+	}
+
+	.mb-3 {
+		padding-left: 250px;
+		padding-right: 250px;
+	}
+
+	.contackt button {
+		margin-top: 25px;
+		margin-left: 400px;
+	}
+
+	.underContackt li {
+		float: none;
+		color: white;
+		padding-top: 100px;
+		padding-left: 230px;
+	}
+
+	.contackt {
+		height: 1000px;
+	}
+
+}
+
+
+@media only screen and (max-width: 768px){
+
+	/*логотип*/
+
+	.logo {
+		margin-left: 100px;
+	}
+
+	/*Первый блок (Главный блок. Имя и картинки)*/
+
+	.first{
+		height: 900px;
+		background:url(../img/art3.png)70px 460px /auto 60% no-repeat;
+	}
+
+	.title__container{
+		margin: 130px 0px 0px 100px;
+	}
+
+	/*третий блок (обо мне)*/
+
+	.typeA p {
+		margin-top: 80px;
+		margin-left: 170px;
+		font-size: 28px;
+	}
+
+	.perviy p {
+		margin-top: -830px;
+		margin-left: 170px;
+	}
+
+	/**/
+
+	.typeB p {
+		margin-top: 200px;
+		margin-left: 170px;
+		font-size: 28px;
+	}
+
+	.vtoroi p {
+		margin-top: 190px;
+		margin-left: 170px;
+	}
+
+	/**/
+
+	.typeC p {
+		margin-top: 250px;
+		margin-left: 175px;
+		font-size: 28px;
+	}
+
+	.tretyi p {
+		margin-top: 230px;
+		margin-left: 177px;
+	}
+	
+	/**/
+
+	.typeD p {
+		margin-top: 250px;
+		margin-left: 170px;
+		font-size: 28px;
+	}
+
+	.chetvertiy p {
+		margin-top: 230px;
+		margin-left: 170px;
+	}
+
+	.three {
+		background: url(../img/граммофон.png)225px 950px /auto 3% no-repeat,
+				url(../img/ракета.png)225px 360px /auto 3% no-repeat,
+				url(../img/знак.png)225px 655px /auto 3% no-repeat,
+				url(../img/ноут.png)215px 120px /auto 3% no-repeat,
+				url(../img/kartinkafona.jpg)0px 0px /auto 100% no-repeat fixed;
+				height: 1200px;
+	}
+
+	/*пятый блок (расчет стоимости)*/
+
+	.firstPoint {
+		padding-left: 250px;
+		padding-right: 200px;
+	}
+
+	.secondPoint {
+		padding-left: 250px;
+		padding-right: 200px;
+	}
+
+	.theePoint {
+		padding-left: 250px;
+		padding-right: 200px;
+	}
+
+	.sroki h3 {
+		padding-top: 50px;
+		padding-left: 250px;
+	}
+
+	.price h3 {
+		padding-top: 10px;
+		padding-left: 250px;
+	}
+
+	.sroki p {
+		padding-left: 550px;
+		margin-top: -30px;
+		font-weight: 800;
+		font-size: 22px;
+	}
+
+	.price p {
+		padding-left: 550px;
+		margin-top: -30px;
+		font-weight: 800;
+		font-size: 22px;
+	}
+
+	/*седьмой блок (отзывы)*/
+
+	.reviews {
+		background: url(../img/copy.png) 430px 420px /auto 2% no-repeat,
+				url(../img/копия.png) 390px 420px /auto 2% no-repeat,
+				url(../img/Оранж.png) 350px 420px /auto 2% no-repeat,
+				url(../img/img_442292.png) 360px 120px /auto 25% no-repeat;
+		height: 500px;
+	}
+
+	/*восьмой блок (контакты)*/
+
+	.contackt {
+		background: url(../img/tryba.png)300px 300px /auto 5% no-repeat,
+				url(../img/konvert.png)300px 200px /auto 5% no-repeat,
+				url(../img/pgpgpgp.jpg)0px 0px /auto 120% no-repeat;
+	}
+
+	.input-group {
+		padding-left: 150px;
+		padding-right: 150px;
+	}
+
+	.mb-3 {
+		padding-left: 150px;
+		padding-right: 150px;
+	}
+
+	.contackt button {
+		margin-top: 25px;
+		margin-left: 350px;
+	}
+
+	.underContackt li {
+		float: none;
+		color: white;
+		padding-top: 100px;
+		padding-left: 230px;
+	}
+
+	.contackt {
+		height: 1000px;
+	}
+
+	/*Шестой блок (Статистика)*/
+
+	.textUnderSix {
+		height: 600px;
+	}
+
+	.A p {
+		padding-left: 100px;
+		padding-top: 50px;
+	}
+
+	.b p {
+		padding-left: 100px;
+		margin-top: 200px;
+	}
+
+	.c p {
+		padding-left: 410px;
+		margin-top: -287px;
+	}
+
+	.d p {
+		padding-left: 420px;
+		margin-top: 205px;	
+	}
+
+	.myStatCLient p {
+		margin-left: 20px;
+		margin-top: -240px;
+	}
+
+	.myStatCLientTwo p {
+		margin-left: 360px;	
+		margin-top: -35px;
+	}
+
+	.myStatCLientTree p {
+		margin-left: 20px;	
+		margin-top: 200px;
+	}
+
+	.myStatCLientFour p {
+		margin-left: 360px;
+		margin-top: -37px;
+	}
+
+	
+
+}
+
+
+@media only screen and (max-width: 576px){
+
+	/*Первый блок (Главный блок. Имя и картинки)*/
+
+	.title__container{
+		margin: 100px 0px 0px 0px;
+	}
+
+	.first {
+		background: url(../img/art3.png)-35px 460px /auto 60% no-repeat;
+	}
+
+	/*Второй блок (Обо мне)*/
+
+	.second {
+		height: 600px;
+	}
+
+	.second {
+		background: url(../img/prog.png)100px 200px/auto 50% no-repeat;
+	}
+
+	.second button {
+		margin-left: 230px;
+		margin-top: 350px;
+	}
+
+	/*Четвертый блок (Кейсы)*/
+
+	.case {
+		background: 
+				url(../img/fonka.png)-150px 200px /auto 40% no-repeat;
+				height: 1000px;
+	}
+
+	/**/
+
+	.client h3 {
+		margin-top: 400px;
+		margin-left: -80px;
+	}
+
+	/**/
+
+	.client p {
+		margin-left: -320px;
+		margin-top: -50px;
+	}
+
+	/**/
+
+	.website h3 {
+		margin-left: -80px;
+	}
+
+	.website p {
+		margin-left: -300px;
+		margin-top: -50px;
+	}
+
+	/**/
+
+	.nameProjeckt h3 {
+		padding-left: 70px;
+		margin-top: -230px;
+	}
+
+	.combo p {
+		padding-left: 40px;
+		margin-top: -45px;
+	}
+
+	/**/
+
+	.website button {
+		margin-top: 200px;
+		margin-left: 80px;
+	}
+
+	/*пятый блок (расчет стоимости)*/
+
+	.firstPoint {
+		padding-left: 250px;
+		padding-right: 100px;
+	}
+
+	.secondPoint {
+		padding-left: 250px;
+		padding-right: 100px;
+	}
+
+	.theePoint {
+		padding-left: 250px;
+		padding-right: 100px;
+	}
+
+	.sroki p {
+		padding-left: 450px;
+		margin-top: -30px;
+		font-weight: 800;
+		font-size: 22px;
+	}
+
+	.price p {
+		padding-left: 450px;
+		margin-top: -30px;
+		font-weight: 800;
+		font-size: 22px;
+	}
+
+	/*седьмой блок (отзывы)*/
+
+	.reviews {
+		background: url(../img/copy.png) 330px 420px /auto 2% no-repeat,
+				url(../img/копия.png) 290px 420px /auto 2% no-repeat,
+				url(../img/Оранж.png) 250px 420px /auto 2% no-repeat,
+				url(../img/img_442292.png) 260px 120px /auto 25% no-repeat;
+		height: 500px;
+	}
+
+	/*восьмой блок (контакты)*/
+
+	.contackt {
+		background: url(../img/tryba.png)200px 300px /auto 5% no-repeat,
+				url(../img/konvert.png)200px 200px /auto 5% no-repeat,
+				url(../img/pgpgpgp.jpg)0px 0px /auto 120% no-repeat;
+	}
+
+	.input-group {
+		padding-left: 100px;
+		padding-right: 100px;
+	}
+
+	.mb-3 {
+		padding-left: 100px;
+		padding-right: 100px;
+	}
+
+	.contackt button {
+		margin-top: 25px;
+		margin-left: 250px;
+	}
+
+	.underContackt li {
+		float: none;
+		color: white;
+		padding-top: 100px;
+		padding-left: 150px;
+	}
+
+	.contackt {
+		height: 1000px;
+	}
+
+	/*Шестой блок (Статистика)*/
+
+	.textUnderSix {
+		height: 800px;
+	}
+
+	.A p {
+		padding-left: 100px;
+		padding-top: 50px;
+	}
+
+	.b p {
+		padding-left: 100px;
+		margin-top: 120px;
+	}
+
+	.c p {
+		padding-left: 100px;
+		margin-top: 130px;
+	}
+
+	.d p {
+		padding-left: 100px;
+		margin-top: 120px;	
+	}
+
+	.myStatCLient p {
+		margin-left: 20px;
+		margin-top: -470px;
+	}
+
+	.myStatCLientTwo p {
+		margin-left: 20px;	
+		margin-top: 300px;
+	}
+
+	.myStatCLientTree p {
+		margin-left: 20px;	
+		margin-top: -220px;
+	}
+
+	.myStatCLientFour p {
+		margin-left: 20px;
+		margin-top: 300px;
+	}
+	
+}
