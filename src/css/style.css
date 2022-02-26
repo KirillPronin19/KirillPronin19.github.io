@@ -34,11 +34,10 @@ nav{
 	text-transform: uppercase;
 }
 
-.btn-group{
-	/*padding-left: 800px;
-	padding-top: 100px;
-	*/
-	display: none;
+.menu_burger{
+	padding-left: 800px;
+	margin-top: -35px;
+	
 }
 
 /*Первый блок (Главный блок. Имя и картинки)*/

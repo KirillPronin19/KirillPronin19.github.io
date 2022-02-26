@@ -1,5 +1,19 @@
+@media only screen and (max-width: 3000px){
+	.menu_burger {
+		display: none;
+	}
+}
+
 
 @media only screen and (max-width: 1470px){
+
+
+	.menu_burger{
+		padding-left: 800px;
+		margin-top: -35px;
+		display: none;
+	
+	}
 
 	/*Тетий блок (Что я умею)*/
 
@@ -21,6 +35,7 @@
 	
 }
 
+ 
 }
 
 
@@ -453,6 +468,10 @@
 
 @media only screen and (max-width: 992px){
 
+	.menu li {
+		display: none;
+	}
+
 	/*Первый блок (Главный блок. Имя и картинки)*/
 
 	.first{
@@ -631,12 +650,22 @@
 		height: 1000px;
 	}
 
+	.menu_burger{
+		position: absolute;
+		display: block;
+
+	}
+
 	
 }
 
 @media only screen and (max-width: 870px){
 
 	/*Тетий блок (Что я умею)*/
+
+	.menu_burger {
+		padding-left: 700px;
+	}
 
 	.typeB p {
 		margin-left: 550px;
@@ -791,6 +820,10 @@
 @media only screen and (max-width: 768px){
 
 	/*логотип*/
+
+	.menu_burger {
+		padding-left: 500px;
+	}
 
 	.logo {
 		margin-left: 100px;
@@ -1007,6 +1040,10 @@
 @media only screen and (max-width: 576px){
 
 	/*Первый блок (Главный блок. Имя и картинки)*/
+
+	.menu_burger {
+		padding-left: 400px;
+	}
 
 	.title__container{
 		margin: 100px 0px 0px 0px;

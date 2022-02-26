@@ -11,7 +11,7 @@
 
 	<link rel="stylesheet" type="text/css" href="css/media.css">
 
-	<link rel="stylesheet" type="text/css" href="js/bootstrap.bundle.js">
+	<!-- <link rel="stylesheet" type="text/css" href="js/bootstrap.bundle.js"> -->
 
 	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
 
@@ -29,25 +29,43 @@
 		<nav>
 			<div class="logo">Кирилл Лагутенко</div>
 				<div class="menu"><ul>
-					<li>Обо мне</li>
-					<li>Услуги</li>
-					<li>Кейсы</li>
-					<li>Прайс</li>
-					<li>Отзывы</li>
-					<li>Контакты</li>
+					<li>
+						<a class="teleport" href="#aboutMe">Обо мне</a>
+					</li>
+
+					<li>
+						<a class="teleport" href="#services">Услуги</a>
+					</li>
+
+					<li>
+						<a class="teleport" href="#cases">Кейсы</a>
+					</li>
+
+					<li>
+						<a class="teleport" href="#priceT">Прайс</a>	
+					</li>
+
+					<li>
+						<a class="teleport" href="#reviews">Отзывы</a>	
+					</li>
+
+					<li>
+						<a class="teleport" href="#contackt">Контакты</a>		
+					</li>
 				</ul>
 			</div>	
 
-			<div class="btn-group">
+			<div class="menu_burger">
   <button type="button" class="btn btn-info dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
-    Действие
+    Меню
   </button>
   <ul class="dropdown-menu">
-    <li><a class="dropdown-item" href="#">Действие</a></li>
-    <li><a class="dropdown-item" href="#">Другое действие</a></li>
-    <li><a class="dropdown-item" href="#">Что-то еще здесь</a></li>
-    <li><hr class="dropdown-divider"></li>
-    <li><a class="dropdown-item" href="#">Отделенная ссылка</a></li>
+    <li><a class="dropdown-item" href="#">Обо мне</a></li>
+    <li><a class="dropdown-item" href="#">Услуги</a></li>
+    <li><a class="dropdown-item" href="#">Кейсы</a></li>
+    <li><a class="dropdown-item" href="#">Прайс</a></li>
+    <li><a class="dropdown-item" href="#">Отзывы</a></li>
+    <li><a class="dropdown-item" href="#">Контакты</a></li>
   </ul>
 </div>
 
@@ -68,7 +86,7 @@
 
 <!-- Второй блок (Обо мне)-->
 
-		<div class="second">
+		<div class="second" id="aboutMe">
 			<h2>Обо мне</h2>
 			<h4>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fugiat provident voluptas cumque itaque quia qui esse harum commodi vitae distinctio amet non minus, accusantium blanditiis.<br> molestias nemo error ea culpa. Quas repellendus ex reprehenderit quibusdam quia mollitia velit officiis atque voluptates provident vero molestiae, vel sed, similique aliquam molestias omnis.</h4>
 			<button type="button" class="btn btn-outline-info">Скачать резюме</button>
@@ -76,8 +94,8 @@
 
 <!-- Тетий блок (Что я умею) -->
 	
-		<div class="three">
-			<h2>Что я умею</h2>
+		<div class="three" id="services">
+			<h2 id="hello">Что я умею</h2>
 				
 
 		<div class="typeA">
@@ -119,7 +137,7 @@
 
 <!-- Четвертый блок (Кейсы) -->
 
-		<div class="case">
+		<div class="case" id="cases">
 			<h2>Кейсы</h2>
 				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nostrum, voluptatibus? Perferendis, alias animi quidem nisi.</p>
 
@@ -145,7 +163,7 @@
 
 <!--Пятый кейс (Расчет стоимости)  -->
 
-		<div class="moneyblock">
+		<div class="moneyblock" id="priceT">
 			<h2>Расчет стоимости</h2>
 
 		<div class="firstPoint">
@@ -244,7 +262,7 @@
 
 <!--Седьмой блок (Отзывы)  -->
 
-		<div class="reviews">
+		<div class="reviews" id="reviews">
 			<h2>Отзывы</h2>
 			<p>Lorem ipsum dolor sit amet consectetur adipisicing, elit. Vero corporis hic impedit omnis debitis, sequi tempora non quae autem, maiores.</p>
 
@@ -257,7 +275,7 @@
 <!-- Восьмой блок (Контакты) -->
 
 	
-		<div class="contackt">
+		<div class="contackt" id="contackt">
 			<h2>Мои контакты</h2>
 			<p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Culpa, officia!</p>
 
@@ -299,8 +317,9 @@
 
 
 	<h2></h2>
- 
+ 	<script src="js/jquery-3.6.0.min.js"></script>
 	<script src="js/myscript.js"></script>
+	<script src="js/bootstrap.bundle.js"></script>
 
 
 </body>
