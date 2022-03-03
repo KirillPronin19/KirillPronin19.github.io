@@ -194,6 +194,13 @@
 		margin-top: -40px;
 	}
 
+	.fotorama {
+		height: 1000px;
+		width: 800px;
+		margin-left: 300px;
+		margin-top: 50px;
+	}
+
 }
 
 
@@ -270,13 +277,24 @@
 
 	/*Четвертый блок (Кейсы)*/
 
+	.fotorama {
+		height: 1000px;
+		width: 800px;
+		margin-left: 200px;
+		margin-top: 50px;
+	}
+
 	.case {
 		background: 
-				url(../img/fonka.png)-150px 200px /auto 75% no-repeat;
+				/*url(../img/fonka.png)-150px 200px /auto 75% no-repeat;*/
 	}
 
 	.client h3 {
 		padding-left: 150px;
+	}
+
+	.client p {
+		margin-left: 150px;
 	}
 
 	/**/
@@ -285,8 +303,23 @@
 		padding-left: 150px;
 	}
 
+	.website p {
+		margin-left: 150px;
+	}
+
 	.website button {
 		margin-left: 140px;
+	}
+
+	.nameProjeckt h3 {
+		padding-left: 450px;
+		margin-top: -240px ;
+		
+	}
+
+	.combo p {
+		padding-left: 450px;
+	
 	}
 
 	/*Пятый кейс (Расчет стоимости)*/
@@ -557,30 +590,53 @@
 
 	/*Четвертый блок (Кейсы)*/
 
+	.fotorama {
+		height: 900px;
+		width: 700px;
+		margin-left: 140px;
+		margin-top: 50px;
+	}
+
 	.case {
-		background: 
-				url(../img/fonka.png)-100px 200px /auto 60% no-repeat;
+		height: 1300px;
 	}
 
 	/**/
+
+	.client h3{
+		margin-top: -500px;
+	}
 
 	.client p {
-		margin-left: -620px;
-		margin-top: -50px;
+		margin-left: 120px;
+		margin-top: 20px;
 	}
 
 	/**/
+
+	.website h3 {
+		margin-top: 30px;
+	}
 
 	.website p {
-		margin-left: -620px;
-		margin-top: -50px;
+		margin-left: 120px;
+		margin-top: 20px;
 	}
 
 	/**/
 
+	.nameProjeckt h3{
+		margin-top: -250px;
+		margin-left: -300px; 
+	}
+
 	.combo p {
-		padding-left: 320px;
-		margin-top: -45px;
+		padding-left: 120px;
+		margin-top: 0px;
+	}
+
+	.website button {
+		margin-top: 120px;
 	}
 
 	/*пятый блок (расчет стоимости)*/
@@ -695,48 +751,55 @@
 
 	/*Четвертый блок (Кейсы)*/
 
+	.fotorama {
+		height: 800px;
+		width: 600px;
+		margin-left: 70px;
+		margin-top: 50px;
+	}
+
+	/**/
+
 	.case {
-		background: 
-				url(../img/fonka.png)-100px 200px /auto 40% no-repeat;
-				height: 1000px;
+		height: 1300px;
 	}
 
 	/**/
 
-	.client h3 {
-		margin-top: 400px;
+	.client h3{
+		margin-top: -600px;
 	}
-
-	/**/
 
 	.client p {
-		margin-left: -450px;
-		margin-top: -50px;
+		margin-left: 120px;
+		margin-top: 20px;
 	}
 
 	/**/
+
+	.website h3 {
+		margin-top: 30px;
+	}
 
 	.website p {
-		margin-left: -450px;
-		margin-top: -50px;
+		margin-left: 120px;
+		margin-top: 20px;
 	}
 
 	/**/
 
-	.nameProjeckt h3 {
-		padding-left: 150px;
-		margin-top: -240px;
+	.nameProjeckt h3{
+		margin-top: -250px;
+		margin-left: -300px; 
 	}
 
 	.combo p {
-		padding-left: 40px;
-		margin-top: -45px;
+		padding-left: 120px;
+		margin-top: 0px;
 	}
 
-	/**/
-
 	.website button {
-		margin-top: 200px;
+		margin-top: 120px;
 	}
 
 	/*пятый блок (расчет стоимости)*/
@@ -1070,54 +1133,55 @@
 
 	/*Четвертый блок (Кейсы)*/
 
+	.fotorama {
+		height: 800px;
+		width: 600px;
+		margin-left: 70px;
+		margin-top: 50px;
+	}
+
+	/**/
+
 	.case {
-		background: 
-				url(../img/fonka.png)-150px 200px /auto 40% no-repeat;
-				height: 1000px;
+		height: 1300px;
 	}
 
 	/**/
 
-	.client h3 {
-		margin-top: 400px;
-		margin-left: -80px;
+	.client h3{
+		margin-top: -600px;
 	}
-
-	/**/
 
 	.client p {
-		margin-left: -320px;
-		margin-top: -50px;
+		margin-left: 120px;
+		margin-top: 20px;
 	}
 
 	/**/
 
 	.website h3 {
-		margin-left: -80px;
+		margin-top: 30px;
 	}
 
 	.website p {
-		margin-left: -300px;
-		margin-top: -50px;
+		margin-left: 120px;
+		margin-top: 20px;
 	}
 
 	/**/
 
-	.nameProjeckt h3 {
-		padding-left: 70px;
-		margin-top: -230px;
+	.nameProjeckt h3{
+		margin-top: -250px;
+		margin-left: -300px; 
 	}
 
 	.combo p {
-		padding-left: 40px;
-		margin-top: -45px;
+		padding-left: 120px;
+		margin-top: 0px;
 	}
 
-	/**/
-
 	.website button {
-		margin-top: 200px;
-		margin-left: 80px;
+		margin-top: 120px;
 	}
 
 	/*пятый блок (расчет стоимости)*/

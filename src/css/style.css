@@ -32,6 +32,11 @@ nav{
 	margin-right: 40px;
 	font-size: 16px;
 	text-transform: uppercase;
+	text-decoration:none;
+}
+
+.teleport {
+	text-decoration: none;
 }
 
 .menu_burger{
@@ -59,6 +64,7 @@ nav{
 	margin: 290px 0px 0px 245px;
 	color: #0093a1;
 	text-align: center;
+	
 }
 
 .title__container h1 {
@@ -97,6 +103,15 @@ nav{
 	color: #0093a1;
 	
 
+}
+
+.element-animation {
+	opacity: 0;
+}
+
+.element-animation.show-animation {
+	opacity: 1;
+	transition: opacity 1s;
 }
 
 .second h4 {
@@ -196,9 +211,9 @@ nav{
 
 .case {
 	background: 
-				url(../img/fonka.png)0px 200px /auto 75% no-repeat;
+				/*url(../img/fonka.png)0px 200px /auto 75% no-repeat;*/
 	width: 100%;
-	height: 850px;
+	height: 950px;
 }
 
 .case h2 {
@@ -206,7 +221,6 @@ nav{
 	font-size: 28px;
 	text-align: center;
 	text-transform: uppercase;
-	color: #0093a1;
 }
 
 .case p {
@@ -216,43 +230,56 @@ nav{
 
 }
 
+.fotorama {
+	height: 1000px;
+	width: 800px;
+	margin-left: 370px;
+	margin-top: 50px;
+	text
+}
+
+
+
 /*надписи под картинкой кейсов*/
 
 .client h3 {
-	margin-top: 500px;
-	padding-left: 300px;
+	margin-top: -150px;
+	padding-left: 350px;
 	color: #00687f;
 }
 
 .client p {
-	margin-left: -765px;
-	margin-top: -50px;
+	margin-left: 300px;
+	margin-top: 0px;
+	color: black;
 }
 
 .website h3 {
-	padding-top: 0px;
-	padding-left: 300px;
+	margin-top: 30px;
+	padding-left: 350px;
 	color: #00687f;
 }
 
 .website p {
-	margin-left: -740px;
-	margin-top: -50px;
+	margin-left: 300px;
+	margin-top: 0px;
 }
 
 .nameProjeckt h3 {
-	padding-left: 800px;
-	margin-top: -165px ;
+	padding-left: 650px;
+	margin-top: -240px ;
 	color: #00687f;
 }
 
 .combo p {
-	padding-left: 278px;
-	margin-top: -45px;
+	padding-left: 650px;
+	
 }
 
 .website button {
-	margin-left: 300px;
+	margin-left: 340px;
+	margin-top: 50px;
+	margin-bottom: 100px;
 }
 
 /*Пятый кейс (Расчет стоимости)*/
@@ -435,6 +462,12 @@ nav{
 	padding-top: 20px;
 
 }
+
+
+
+
+
+
 
 
 /*Восьмой блок (Контакты)*/
