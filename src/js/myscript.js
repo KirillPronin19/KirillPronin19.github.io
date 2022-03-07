@@ -1,16 +1,5 @@
 "use strict "
 
-// import calc from '.modules/calc'
-
-// window.addEventListener('DOMContentLoaded', () => {
-// });
-
-
-// 	calc('#tip', '#diz', '#adapt', '.price');
-
-
-
-
 
 // let siteType = prompt("Тип сайта 1-Одностраничный, 2-Многостраничный, 3-Интернет-магазин");
 

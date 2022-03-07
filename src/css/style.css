@@ -1,9 +1,7 @@
 body{
 	font-family: Arial, sans-serif;
 }
-
 /*шапка сайта*/
-
 nav{
 	width: 100%;
 	height: 60px;
@@ -11,20 +9,17 @@ nav{
 	position: fixed;
 	z-index: 3;
 }
-
 .logo{
 	color: #fff;
 	font-size: 28px;
 	margin-left: 188px;
 	padding-top: 5px;
 }
-
 .menu {
 	float: left;
 	padding-left: 732px;
 	margin-top: -30px;
 }
-
 .menu li{
 	float: left;
 	/*line-height: 60px;*/
@@ -32,21 +27,21 @@ nav{
 	margin-right: 40px;
 	font-size: 16px;
 	text-transform: uppercase;
-	text-decoration:none;
 }
 
-.teleport {
-	text-decoration: none;
-}
-
+.btn-group{
+	/*padding-left: 800px;
+	padding-top: 100px;
+	*/
+	display: none;
+		}
 .menu_burger{
 	padding-left: 800px;
 	margin-top: -35px;
-	
+
 }
 
 /*Первый блок (Главный блок. Имя и картинки)*/
-
 .first{
 	background: url(../img/art3.png)900px 200px /auto 60% no-repeat;
 	/*url(../img/wood-gb6c6a11ae_1920.jpg) center/cover fixed;*/
@@ -58,43 +53,33 @@ nav{
 	box-shadow: 0px -13px 5px -4px rgba(34, 60, 80, 0.17) inset;
 	
 }
-
 .title__container{
 	float: left;
 	margin: 290px 0px 0px 245px;
 	color: #0093a1;
 	text-align: center;
-	
 }
-
 .title__container h1 {
 	font-size: 60px;
 	font-weight: bold;
-
 }
-
 .title__container h4 {
 	margin-top: 30px;
 	font-size: 22px;
-
 }
-
 .title__container button {
 	font-size: 16px;
 	margin-top: 30px;
 	margin-left: 10px;
 	
 }
-
 /*Второй блок (Обо мне)*/
-
 .second {
 	background: url(../img/prog.png)600px 150px/auto 50% no-repeat;
 	width: 100%;
 	height: 500px;
 	z-index: 3;
 }
-
 .second h2 {
 	margin-top: 60px;
 	font-size: 28px;
@@ -102,32 +87,18 @@ nav{
 	text-transform: uppercase;
 	color: #0093a1;
 	
-
 }
-
-.element-animation {
-	opacity: 0;
-}
-
-.element-animation.show-animation {
-	opacity: 1;
-	transition: opacity 1s;
-}
-
 .second h4 {
 	text-align: center;
 	font-size: 14px;
 	margin-top: 60px;
 }
-
 .second button {
 	text-align: center;
 	margin-left: 699px;
 	margin-top: 300px;
 }
-
 /*Тетий блок (Что я умею)*/
-
 .three {
 	background: url(../img/граммофон.png)1260px 200px /auto 10% no-repeat,
 				url(../img/ракета.png)980px 200px /auto 10% no-repeat,
@@ -136,12 +107,10 @@ nav{
 				url(../img/kartinkafona.jpg)0px 0px /auto 100% no-repeat fixed;
 	width: 100%;
 	height: 450px;
-
 	-webkit-box-shadow: 0px 17px 11px -5px rgba(34, 60, 80, 0.27) inset;
 	-moz-box-shadow: 0px 17px 11px -5px rgba(34, 60, 80, 0.27) inset;
 	box-shadow: 0px 17px 11px -5px rgba(34, 60, 80, 0.27) inset;
 }
-
 .three h2 {
 	padding-top: 50px;
 	font-size: 28px;
@@ -149,148 +118,105 @@ nav{
 	text-transform: uppercase;	
 	color: #0093a1;
 }
-
 /*подзаголовки*/
-
 .typeA p {
 	margin-top: 190px;
 	margin-left: 270px;
 	font-size: 24px;
 	color: #0093a1;
 }
-
 .typeB p {
 	margin-top: -50px;
 	margin-left: 580px;
 	font-size: 24px;
 	color: #0093a1;
 }
-
 .typeC p {
 	margin-top: -50px;
 	margin-left: 890px;
 	font-size: 24px;
 	color: #0093a1;
 }
-
 .typeD p {
 	margin-top: -50px;
 	margin-left: 1220px;
 	font-size: 24px;
 	color: #0093a1;
 }
-
 /*текст под мини-заголовками*/
-
 .perviy p {
 	margin-top: 30px;
 	margin-left: 260px;
 }
-
 .vtoroi p {
 	margin-top: -77px;
 	margin-left: 570px;
 }
-
 .tretyi p {
 	margin-top: -77px;
 	margin-left: 900px;
 }
-
 .chetvertiy p {
 	margin-top: -77px;
 	margin-left: 1220px;
 }
-
-
-
-
-
-
 /*Четвертый блок (Кейсы)*/
-
 .case {
 	background: 
-				/*url(../img/fonka.png)0px 200px /auto 75% no-repeat;*/
+				url(../img/fonka.png)0px 200px /auto 75% no-repeat;
 	width: 100%;
-	height: 950px;
+	height: 850px;
 }
-
 .case h2 {
 	padding-top: 50px;
 	font-size: 28px;
 	text-align: center;
 	text-transform: uppercase;
+	color: #0093a1;
 }
-
 .case p {
 	text-align: center;
 	padding-top: 50px;
 	text-transform: uppercase;
-
 }
-
-.fotorama {
-	height: 1000px;
-	width: 800px;
-	margin-left: 370px;
-	margin-top: 50px;
-	text
-}
-
-
-
 /*надписи под картинкой кейсов*/
-
 .client h3 {
-	margin-top: -150px;
-	padding-left: 350px;
+	margin-top: 500px;
+	padding-left: 300px;
 	color: #00687f;
 }
-
 .client p {
-	margin-left: 300px;
-	margin-top: 0px;
-	color: black;
+	margin-left: -765px;
+	margin-top: -50px;
 }
-
 .website h3 {
-	margin-top: 30px;
-	padding-left: 350px;
+	padding-top: 0px;
+	padding-left: 300px;
 	color: #00687f;
 }
-
 .website p {
-	margin-left: 300px;
-	margin-top: 0px;
+	margin-left: -740px;
+	margin-top: -50px;
 }
-
 .nameProjeckt h3 {
-	padding-left: 650px;
-	margin-top: -240px ;
+	padding-left: 800px;
+	margin-top: -165px ;
 	color: #00687f;
 }
-
 .combo p {
-	padding-left: 650px;
-	
+	padding-left: 278px;
+	margin-top: -45px;
 }
-
 .website button {
-	margin-left: 340px;
-	margin-top: 50px;
-	margin-bottom: 100px;
+	margin-left: 300px;
 }
-
 /*Пятый кейс (Расчет стоимости)*/
-
 .moneyblock {
 	background: url(../img/wing.png)1200px 270px /auto 30% no-repeat,
 				url(../img/cerkon.png)100px 240px /auto 35% no-repeat;
 	/*background-color: rgb(247, 247,247);*/
 	
 }
-
 .moneyblock h2 {
 	padding-top: 100px;
 	font-size: 28px;
@@ -298,57 +224,47 @@ nav{
 	text-transform: uppercase;
 	color: #0093a1;
 }
-
 .firstPoint {
 	padding-left: 400px;
 	padding-right: 400px;
 	padding-top: 50px;
 }
-
 .secondPoint {
 	padding-left: 400px;
 	padding-right: 400px;
 	padding-top: 50px;
 }
-
 .theePoint {
 	padding-left: 400px;
 	padding-right: 400px;
 	padding-top: 50px;
 }
-
 .sroki h3 {
 	padding-top: 50px;
 	padding-left: 402px;
 }
-
 .sroki p {
 	padding-left: 1110px;
 	margin-top: -30px;
 	font-weight: 800;
 	font-size: 22px;
 }
-
 .price h3 {
 	padding-top: 10px;
 	padding-left: 402px;
 }
-
 .price p {
 	padding-left: 1110px;
 	margin-top: -30px;
 	font-weight: 800;
 	font-size: 22px;
 }
-
 /*Шестой блок (Статистика)*/
-
 .textUnderSix {
 	background: url(../img/фон.jpg)0px 0px /cover no-repeat;
 	height: 400px;
 	width: 100%;
 }
-
 .textUnderSix h2 {
 	padding-top: 80px;
 	font-size: 28px;
@@ -356,35 +272,30 @@ nav{
 	text-transform: uppercase;
 	color: #0093a1;
 }
-
 .A p {
 	padding-left: 1250px;
 	padding-top: 150px;
 	font-weight: bold;
 	font-size: 24px;
 }
-
 .b p {
 	padding-left: 900px;
 	margin-top: -45px;
 	font-weight: bold;
 	font-size: 24px;
 }
-
 .c p {
 	font-weight: bold;
 	font-size: 24px;
 	padding-left: 600px;
 	margin-top: -50px;
 }
-
 .d p {
 	font-weight: bold;
 	font-size: 24px;
 	padding-left: 300px;
 	margin-top: -50px;	
 }
-
 .myStatCLient p {
 	color: black;
 	font-size: 16px;
@@ -392,7 +303,6 @@ nav{
 	font-weight: bold;
 	margin-left: 200px;
 }
-
 .myStatCLientTwo p {
 	color: black;
 	font-size: 16px;
@@ -401,7 +311,6 @@ nav{
 	margin-left: 560px;	
 	margin-top: -35px;
 }
-
 .myStatCLientTree p {
 	color: black;
 	font-size: 16px;
@@ -410,7 +319,6 @@ nav{
 	margin-left: 820px;	
 	margin-top: -37px;
 }
-
 .myStatCLientFour p {
 	color: black;
 	font-size: 16px;
@@ -419,7 +327,6 @@ nav{
 	margin-left: 1190px;
 	margin-top: -40px;
 }
-
 /*.textUnderSix li{
 	float: left;
 	color: black;
@@ -429,11 +336,7 @@ nav{
 	font-weight: bold;
 	color: black;
 }*/
-
-
-
 /*Седьмой блок (Отзывы)*/
-
 .reviews {
 	background: url(../img/copy.png) 790px 380px /auto 2% no-repeat,
 				url(../img/копия.png) 755px 380px /auto 2% no-repeat,
@@ -441,7 +344,6 @@ nav{
 				url(../img/img_442292.png) 729px 120px /auto 25% no-repeat;
 	height: 500px;
 }
-
 .reviews h2 {
 	font-size: 28px;
 	text-align: center;
@@ -449,22 +351,17 @@ nav{
 	padding-top: 50px;
 	color: #0093a1;
 }
-
 .reviews p {
 	text-align: center;
 	font-size: 16px;
 	padding-top: 200px;
 }
-
 .underR h3 {
 	text-align: center;
 	font-size: 14px;
 	padding-top: 20px;
-
 }
-
 /*Восьмой блок (Контакты)*/
-
 .contackt {
 	width: 100%;
 	height: 700px;
@@ -472,7 +369,6 @@ nav{
 				url(../img/konvert.png)480px 220px /auto 5% no-repeat,
 				url(../img/pgpgpgp.jpg)0px 0px /auto 120% no-repeat;
 }
-
 .contackt h2 {
 	font-size: 32px;
 	text-align: center;
@@ -481,57 +377,45 @@ nav{
 	padding-top: 50px;
 	color: #fff;
 }
-
 .contackt p {
 	text-align: center;
 	font-size: 16px;
 	padding-top: 20px;
 	color: white;
 }
-
 .underContackt li {
 	float: left;
 	color: white;
 	padding-top: 120px;
 	padding-left: 360px;
 }
-
 .nadpis h3 {
 	text-align: center;
 	color: white;
 	padding-top: 200px;
 	margin: 0px 0px 15px 0px;
 }
-
 .input-group {
 	padding-left: 500px;
 	padding-right: 500px;
 }
-
 .mb-3 {
 	padding-left: 500px;
 	padding-right: 500px;
 }
-
 .contackt button {
 	margin-top: 25px;
 	margin-left: 730px;
 }
-
 /*подвал*/
-
 .footer {
 	width: 100%;
 	height: 50px;
 	background: #008c9e;
 }
-
 .footer p {
 	color: white;
 	text-align: center;
 	padding-top: 10px;
 	font-size: 12px;
 }
-
-
-
