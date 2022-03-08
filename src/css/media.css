@@ -2,6 +2,11 @@
 	.menu_burger {
 		display: none;
 	}
+
+	.fotorama {
+		margin-left: 400px;
+		margin-right:400px;
+	}
 }
 
 
@@ -199,6 +204,30 @@
 		width: 800px;
 		margin-left: 300px;
 		margin-top: 50px;
+	}
+
+
+	.client h3 {
+		margin-top: -10px;
+	}
+
+
+	.client p {
+		margin-top: 10px;
+	}
+
+
+	.nameProjeckt h3 {
+		padding-left: 800px;
+		margin-top: -250px ;
+		color: #00687f;
+	}
+
+
+	.website button {
+		margin-left: 300px;
+		margin-top: 100px;
+		margin-bottom: 100px;
 	}
 
 }
@@ -494,6 +523,11 @@
 	.theePoint {
 		padding-left: 400px;
 		padding-right: 300px;
+	}
+
+	.fotorama {
+		margin-left: 150px;
+		margin-right: 200px;
 	}
 
 }
@@ -1099,6 +1133,15 @@
 
 }
 
+@media only screen and (max-width: 668px){
+	.fotorama {
+		margin-right: 100px;
+		margin-left: 0px;
+		height: 300px
+		width:300px;
+	}
+}
+
 
 @media only screen and (max-width: 576px){
 
@@ -1136,7 +1179,7 @@
 	.fotorama {
 		height: 800px;
 		width: 600px;
-		margin-left: 70px;
+		margin-left: 0px;
 		margin-top: 50px;
 	}
 
@@ -1181,7 +1224,7 @@
 	}
 
 	.website button {
-		margin-top: 120px;
+		margin-top: 200px;
 	}
 
 	/*пятый блок (расчет стоимости)*/

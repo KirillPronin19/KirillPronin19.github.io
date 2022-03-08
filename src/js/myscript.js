@@ -1,57 +1,108 @@
 "use strict "
 
 
-// let siteType = prompt("Тип сайта 1-Одностраничный, 2-Многостраничный, 3-Интернет-магазин");
+let siteType = prompt("Тип сайта 1-Одностраничный, 2-Многостраничный, 3-Интернет-магазин");
 
-// console.log(siteType);
+console.log(siteType);
 
-// let design = prompt("Дизайн сайта 1-Ваш дизайн, 2-Индивидуальный дизан, 3-Без дизайна");
+let design = prompt("Дизайн сайта 1-Ваш дизайн, 2-Индивидуальный дизан, 3-Без дизайна");
 
-// console.log(design);
+console.log(design);
 
-// let adaptability = prompt("Адаптивность 1-Не адаптивный, 2-Адаптивный под мобильные устройства, 3-адаптивный");
+let adaptability = prompt("Адаптивность 1-Не адаптивный, 2-Адаптивный под мобильные устройства, 3-адаптивный");
 
-// console.log(adaptability);
+console.log(adaptability);
 
-// let sum = 0
+let sum = 0
 
-// if (siteType == "1"){
-// 	sum = sum + 5000;
-// }
+if (siteType == "1"){
+	sum = sum + 5000;
+}
 
-// else if (siteType == "2"){
-// 	sum = sum + 7000;
-// }
+else if (siteType == "2"){
+	sum = sum + 7000;
+}
 
-// else if (siteType == "3"){
-// 	sum = sum + 13000;
-// }
+else if (siteType == "3"){
+	sum = sum + 13000;
+}
 
-// if (design == "1"){
-// 	sum = sum + 2000;
-// }
+if (design == "1"){
+	sum = sum + 2000;
+}
 
-// else if (design == "2"){
-// 	sum = sum + 1000;
-// }
+else if (design == "2"){
+	sum = sum + 1000;
+}
 
-// else if (design == "3"){
-// 	sum = sum + 0;
-// }
+else if (design == "3"){
+	sum = sum + 0;
+}
 
-// if (adaptability == "1") {
-// 	sum = sum + 1000;
-// }
+if (adaptability == "1") {
+	sum = sum + 1000;
+}
 
-// else if (adaptability == "2"){
-// 	sum = sum + 4000;
-// }
+else if (adaptability == "2"){
+	sum = sum + 4000;
+}
 
-// else if (adaptability == "3") {
-// 	sum = sum + 3000;
-// }
+else if (adaptability == "3") {
+	sum = sum + 3000;
+}
 
-// alert(sum);
+alert(sum);
+
+
+
+let crip = 0
+
+
+
+if (siteType == "1") {
+	crip = crip + 3;
+}
+
+else if (siteType == "2"){
+	crip = crip + 5;
+}
+
+else if (siteType == "3"){
+	crip = crip + 8;
+}
+
+
+
+if (design == "1"){
+	crip = crip + 2;
+}
+
+else if (design == "2"){
+	crip = crip + 3;
+}
+
+else if (design == "3"){
+	crip = crip + 0;
+}
+
+
+if (adaptability == "1") {
+	crip = crip + 0;
+}
+
+else if (adaptability == "2"){
+	crip = crip + 3;
+}
+
+else if (adaptability == "3") {
+	crip = crip + 2;
+}
+
+
+alert(crip);
+
+
+
 
 
 
