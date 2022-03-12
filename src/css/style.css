@@ -313,6 +313,17 @@ a.teleport {
 	font-weight: 800;
 	font-size: 22px;
 }
+
+
+.taSamayaKnopka {
+	padding-left: 400px;
+}
+
+
+.modal-header h5{
+	padding-left: 110px;
+}
+
 /*Шестой блок (Статистика)*/
 .textUnderSix {
 	background: url(../img/фон.jpg)0px 0px /cover no-repeat;
@@ -391,7 +402,7 @@ a.teleport {
 	color: black;
 }*/
 /*Седьмой блок (Отзывы)*/
-.reviews {
+/*.reviews {
 	background: url(../img/copy.png) 790px 380px /auto 2% no-repeat,
 				url(../img/копия.png) 755px 380px /auto 2% no-repeat,
 				url(../img/Оранж.png) 720px 380px /auto 2% no-repeat,
@@ -406,6 +417,7 @@ a.teleport {
 	color: #0093a1;
 }
 .reviews p {
+
 	text-align: center;
 	font-size: 16px;
 	padding-top: 200px;
@@ -414,7 +426,13 @@ a.teleport {
 	text-align: center;
 	font-size: 14px;
 	padding-top: 20px;
-}
+}*/
+
+
+
+
+
+
 /*Восьмой блок (Контакты)*/
 .contackt {
 	width: 100%;
