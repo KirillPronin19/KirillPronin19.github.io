@@ -136,11 +136,9 @@ function onEntry (entry){
 		});
 }
 
-
 $("select").on("change", function(){
-let sum = parseInt($(this).val());
+sum = parseInt($(this).val());
 });
-
 
 $("select").on("change", function(){
 sum = sum + parseInt($(this).val());
@@ -148,4 +146,6 @@ sum = sum + parseInt($(this).val());
 
 days="5"
 
-$(.type + "option:selected").attr("5");
+$(".type" + " option:selected").attr("days");
+
+console.log("select");
