@@ -148,4 +148,8 @@ days="5"
 
 $(".type" + " option:selected").attr("days");
 
-console.log("select");
+$("select").on("change", function(){
+sum = parseInt($('#select1').val()) + parseInt($('#select2').val()) + parseInt($('#select3').val());
+});
+
+$(".textSum").text(sum);
