@@ -307,15 +307,19 @@ a.teleport {
 	font-weight: 800;
 	font-size: 22px;
 }
-.price h3 {
+.textSum h3 {
 	padding-top: 10px;
 	padding-left: 402px;
 }
-.price p {
+/*.textSum p {
 	padding-left: 1110px;
 	margin-top: -30px;
 	font-weight: 800;
 	font-size: 22px;
+}*/
+
+.textSum p {
+	margin-left: 400px;
 }
 
 

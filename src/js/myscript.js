@@ -1,15 +1,15 @@
 "use strict "
 
 
-let siteType = prompt("Тип сайта 1-Одностраничный, 2-Многостраничный, 3-Интернет-магазин");
+let siteType = ("Тип сайта 1-Одностраничный, 2-Многостраничный, 3-Интернет-магазин");
 
 console.log(siteType);
 
-let design = prompt("Дизайн сайта 1-Ваш дизайн, 2-Индивидуальный дизан, 3-Без дизайна");
+let design = ("Дизайн сайта 1-Ваш дизайн, 2-Индивидуальный дизан, 3-Без дизайна");
 
 console.log(design);
 
-let adaptability = prompt("Адаптивность 1-Не адаптивный, 2-Адаптивный под мобильные устройства, 3-адаптивный");
+let adaptability = ("Адаптивность 1-Не адаптивный, 2-Адаптивный под мобильные устройства, 3-адаптивный");
 
 console.log(adaptability);
 
@@ -51,7 +51,7 @@ else if (adaptability == "3") {
 	sum = sum + 3000;
 }
 
-alert(sum);
+// alert(sum);
 
 
 
@@ -99,7 +99,7 @@ else if (adaptability == "3") {
 }
 
 
-alert(crip);
+// alert(crip);
 
 
 
@@ -136,20 +136,26 @@ function onEntry (entry){
 		});
 }
 
-$("select").on("change", function(){
-sum = parseInt($(this).val());
-});
+// $("select").on("change", function(){
+// sum = parseInt($(this).val());
+// });
+
+// $("select").on("change", function(){
+// sum = sum + parseInt($(this).val());
+// });
+
+// days="5"
+
+// $(".type" + " option:selected").attr("days");
 
 $("select").on("change", function(){
-sum = sum + parseInt($(this).val());
-});
-
-days="5"
-
-$(".type" + " option:selected").attr("days");
-
-$("select").on("change", function(){
-sum = parseInt($('#select1').val()) + parseInt($('#select2').val()) + parseInt($('#select3').val());
+sum = parseInt($("#select1").val()) + parseInt($("#select2").val()) + parseInt($("#select3").val());
 });
 
 $(".textSum").text(sum);
+
+$("select").on("change", function(){
+sum = parseInt($('#select1').val()) + parseInt($('#select2').val()) + parseInt($('#select3').val());
+
+console.log(sum);
+});
