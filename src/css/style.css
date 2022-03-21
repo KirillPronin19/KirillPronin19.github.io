@@ -1,21 +1,43 @@
-body{
-	/*font-family: Arial, sans-serif;*/
-	
-	font-family: 'Exo 2', sans-serif;
-font-family: 'Lobster', cursive;
-font-family: 'Montserrat Alternates', sans-serif;
+  body{
+	font-family: Arial, sans-serif;
 }
-/*шапка сайта*/
+
+ @font-face {
+	font-family: "MB-EvilGhost";
+	font-style: normal;
+	font-weight: 400;
+	/* Браузер сначала попробует найти шрифт локально */
+	src: local("MB-EvilGhost"),
+		 /* Если не получилось, загрузит woff2 */
+		 url("/fonts/roboto.woff2") format("woff2"),
+		 /* Если браузер не поддерживает woff2, загрузит woff */
+		 url("/fonts/roboto.woff") format("woff");
+  } 
+
+  @font-face {
+	font-family: 'Conv_MB-EvilGhost_Font';
+	src: url('../fonts/MB-EvilGhost_Font.eot');
+	src: local('☺'), url('../fonts/MB-EvilGhost_Font.woff') format('woff'), url('fonts/MB-EvilGhost_Font.ttf') format('truetype'), url('fonts/MB-EvilGhost_Font.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+  
 
 
 nav{
 	width: 100%;
 	height: 60px;
-	background: #008c9e;
+	background: black;
 	position: fixed;
 	z-index: 3;
 }
 
+.menu a {
+	color: white;
+	text-decoration: none;
+}
+
+/* MB-EvilGhost */
 
 .logo{
 	color: #fff;
@@ -23,7 +45,6 @@ nav{
 	margin-left: 188px;
 	padding-top: 5px;
 }
-
 
 .menu {
 	float: left;
@@ -43,459 +64,320 @@ nav{
 	text-decoration: none; 
 }
 
+/* Фронтальный блок */
 
-a.teleport {
-	color: white;
-	text-decoration: none;
-}
-
-
-.btn-group{
-	display: none;
-	}
-
-
-.menu_burger{
-	padding-left: 800px;
-	margin-top: -35px;
-}
-
-
-/*Первый блок (Главный блок. Имя и картинки)*/
-
-
-.first{
-	background: url(../img/art3.png)900px 200px /auto 60% no-repeat;
-	/*url(../img/wood-gb6c6a11ae_1920.jpg) center/cover fixed;*/
+.first {
+	background: url(../img/vira.jpg)fixed;
+	height: 600px;
 	width: 100%;
-	height: 750px;
-	background-color: #fff;
-	-webkit-box-shadow: 0px -13px 5px -4px rgba(34, 60, 80, 0.17) inset;
-	-moz-box-shadow: 0px -13px 5px -4px rgba(34, 60, 80, 0.17) inset;
-	box-shadow: 0px -13px 5px -4px rgba(34, 60, 80, 0.17) inset;
-	
 }
 
+.first h1 {
+	padding-top: 200px;
+	padding-left: 300px;
+	font-size: 62px;
+	color: #dedcdc;
+}
 
-.title__container{
-	float: left;
-	margin: 290px 0px 0px 245px;
-	color: #0093a1;
+.first h4 {
+	padding-left: 300px;
+	color: #cfcfcf;
+}
+
+.knopka{
+	padding-left: 300px;
+	padding-top: 30px;
+}
+
+/* О сайте */
+
+.second {
+	height: 600px;
+	width: 100%;
+}
+
+.second h2{
+	margin-left: 735px;
+	margin-top: 50px;
+	font-size: 38px;
+	font-weight: 700;
+}
+
+.second p{
+	margin-top: 50px;
+	margin-left: 200px;
+	margin-right: 200px;
+	font-size: 16px;
+	font-weight: 500;
+}
+
+.circle {
+	margin-top: 50px;
+	margin-left: 690px;
+	height: 200px;
+	width: 200px;
+	border-radius: 50%;  /* Скругление углов изображения */
+    border: 5px solid #fff; /* Цвет и ширину рамки */
+    box-shadow: 2px 1px 5px #999999; /* Цвет и размер тени */
+}
+
+/* Вопрос-ответ */
+
+.questions {
+	width: 100%;
+	height: 1000px;
+}
+
+.questions h2{
+	margin-left: 700px;
+	margin-top:0px;
+	font-size: 38px;
+	font-weight: 700;
+}
+
+.questions h6{
+	text-align: center;
+	margin-top: 15px;
+	opacity: 0.6;
+}
+
+/* Стили для самих карточек */
+
+.firstBlock { 		/*Первая карточка*/
+	border: 3px solid #000000;
+	background-color: #000000;
+	width: 300px;
+	height: 250px;
+	margin-top: 100px;
+	margin-left: 235px;
+}
+
+.firstBlock h4 {
+	margin-top: 10px;
+	font-size: 21px;
+	font-weight: bold;
+	color: #fff;
+	text-align: center;
+}
+
+.firstBlock p {
+	font-weight: 600;
+	color: #fff;
+	padding-top: 15px;
+	text-align: center;
+}
+
+.secondBlock { 		/*Вторая карточка*/
+	border: 3px solid #cfcfcf;
+	width: 300px;
+	height: 250px;
+	margin-top: -250px;
+	margin-left: 635px;
+}
+
+.secondBlock h4 {
+	margin-top: 10px;
+	font-size: 21px;
+	font-weight: bold;
+	text-align: center;
+}
+
+.secondBlock p {
+	font-weight: 600;
+	color: rgb(0, 0, 0);
+	padding-top: 15px;
+	text-align: center;
+}
+
+.thirdBlock {		/*Третья карточка*/
+	border: 3px solid #000000;
+	background-color: #000000;
+	width: 300px;
+	height: 250px;
+	margin-top: -250px;
+	margin-left: 1035px; 
+}
+
+.thirdBlock h4 {
+	margin-top: 10px;
+	font-size: 21px;
+	text-align: center;
+	font-weight: bold;
+	color: #fff;
+}
+
+.thirdBlock p {
+	font-weight: 600;
+	color: #fff;
+	padding-top: 15px;
 	text-align: center;
 }
 
 
-.title__container h1 {
-	font-size: 60px;
+.FourthBlock {		/* Четвертая карточка*/
+	border: 3px solid #cfcfcf;
+	width: 300px;
+	height: 250px;
+	margin-top: 100px;
+	margin-left: 235px;
+}
+
+.FourthBlock h4 {
+	margin-top: 10px;
+	font-size: 21px;
+	text-align: center;
 	font-weight: bold;
 }
 
-
-.title__container h4 {
-	margin-top: 30px;
-	font-size: 22px;
-}
-
-
-.title__container button {
-	font-size: 16px;
-	margin-top: 30px;
-	margin-left: 10px;
-	
-}
-
-
-/*Второй блок (Обо мне)*/
-
-
-.second {
-	background: url(../img/prog.png)600px 150px/auto 50% no-repeat;
-	width: 100%;
-	height: 500px;
-	z-index: 3;
-}
-
-
-.second h2 {
-	margin-top: 60px;
-	font-size: 28px;
+.FourthBlock p {
 	text-align: center;
-	text-transform: uppercase;
-	color: #0093a1;
-	
+	padding-top: 15px;
 }
 
-
-.second h4 {
-	text-align: center;
-	font-size: 14px;
-	margin-top: 60px;
+.fifthBlock {		/* Пятая карточка*/
+	border: 3px solid #000000;
+	background-color: #000000;
+	width: 300px;
+	height: 250px;
+	margin-top: -250px;
+	margin-left: 635px;
 }
 
-
-.second button {
-	text-align: center;
-	margin-left: 699px;
-	margin-top: 300px;
-}
-
-
-/*Тетий блок (Что я умею)*/
-
-
-.three {
-	background: url(../img/граммофон.png)1260px 200px /auto 10% no-repeat,
-				url(../img/ракета.png)980px 200px /auto 10% no-repeat,
-				url(../img/знак.png)615px 200px /auto 10% no-repeat,
-				url(../img/ноут.png)300px 200px /auto 10% no-repeat,
-				url(../img/kartinkafona.jpg)0px 0px /auto 100% no-repeat fixed;
-	width: 100%;
-	height: 450px;
-	-webkit-box-shadow: 0px 17px 11px -5px rgba(34, 60, 80, 0.27) inset;
-	-moz-box-shadow: 0px 17px 11px -5px rgba(34, 60, 80, 0.27) inset;
-	box-shadow: 0px 17px 11px -5px rgba(34, 60, 80, 0.27) inset;
-}
-
-
-.three h2 {
-	padding-top: 50px;
-	font-size: 28px;
-	text-align: center;
-	text-transform: uppercase;	
-	color: #0093a1;
-}
-
-
-/*подзаголовки*/
-
-
-.typeA p {
-	margin-top: 190px;
-	margin-left: 270px;
-	font-size: 24px;
-	color: #0093a1;
-}
-
-
-.typeB p {
-	margin-top: -50px;
-	margin-left: 580px;
-	font-size: 24px;
-	color: #0093a1;
-}
-
-
-.typeC p {
-	margin-top: -50px;
-	margin-left: 890px;
-	font-size: 24px;
-	color: #0093a1;
-}
-.typeD p {
-	margin-top: -50px;
-	margin-left: 1220px;
-	font-size: 24px;
-	color: #0093a1;
-}
-/*текст под мини-заголовками*/
-.perviy p {
-	margin-top: 30px;
-	margin-left: 260px;
-}
-.vtoroi p {
-	margin-top: -77px;
-	margin-left: 570px;
-}
-.tretyi p {
-	margin-top: -77px;
-	margin-left: 900px;
-}
-.chetvertiy p {
-	margin-top: -77px;
-	margin-left: 1220px;
-}
-/*Четвертый блок (Кейсы)*/
-.case {
-	background: 
-				/*url(../img/fonka.png)0px 200px /auto 75% no-repeat;*/
-	width: 100%;
-	height: 850px;
-}
-.case h2 {
-	padding-top: 50px;
-	font-size: 28px;
-	text-align: center;
-	text-transform: uppercase;
-	color: #0093a1;
-}
-.case p {
-	text-align: center;
-	padding-top: 50px;
-	text-transform: uppercase;
-}
-/*надписи под картинкой кейсов*/
-.client h3 {
-	margin-top: -180px;
-	padding-left: 300px;
-	color: #00687f;
-}
-.client p {
-	margin-left: 265px;
-	margin-top: -10px;
-}
-.website h3 {
-	padding-top: -100px;
-	padding-left: 300px;
-	color: #00687f;
-}
-.website p {
-	margin-left: 265px;
+.fifthBlock h4 {
 	margin-top: 10px;
+	font-size: 21px;
+	text-align: center;
+	font-weight: bold;
+	color: #fff;
 }
-.nameProjeckt h3 {
-	padding-left: 800px;
-	margin-top: -165px ;
-	color: #00687f;
+
+.fifthBlock p {
+	color: #fff;
+	padding-top: 15px;
+	text-align: center;
 }
-.combo p {
-	padding-left: 678px;
-	margin-top: 0px;
+
+.sixthBlock {		/* Шестая карточка*/
+	border: 3px solid #cfcfcf;
+	width: 300px;
+	height: 250px;
+	margin-top: -250px;
+	margin-left: 1035px; 
 }
-.website button {
-	margin-left: 300px;
+
+.sixthBlock h4 {
+	margin-top: 10px;
+	font-size: 21px;
+	text-align: center;
+	font-weight: bold;
+}
+
+.sixthBlock p {
+	text-align: center;
+	padding-top: 15px;
+}
+
+/* Категории */
+
+.categories {
+	/* background: url(../img/sky.jpg)fixed; */
+	width: 100%;
+	height: 1000px;
+}
+
+.categories h2 {
+	text-align: center;
+	font-weight: 700;
+	font-size: 38px;
+	padding-top: 35px;
+	color: rgb(0, 0, 0);
+}
+
+.fotorama {			/* Слайдер */
+	height: 700px;
+	width: 700px;
+	margin-left: 400px;
 	margin-top: 100px;
 }
 
-
-
-/*Пятый кейс (Расчет стоимости)*/
-.moneyblock {
-	background: url(../img/wing.png)1200px 270px /auto 30% no-repeat,
-				url(../img/cerkon.png)100px 240px /auto 35% no-repeat;
-	/*background-color: rgb(247, 247,247);*/
-	
+.categories h3 {
+	text-align: center;	
+	font-weight: 700;
+	margin-top: -220px;
 }
-.moneyblock h2 {
-	padding-top: 100px;
-	font-size: 28px;
+
+.categories p {
+	width: 500px;
 	text-align: center;
-	text-transform: uppercase;
-	color: #0093a1;
-}
-.firstPoint {
-	padding-left: 400px;
-	padding-right: 400px;
-	padding-top: 50px;
-}
-.secondPoint {
-	padding-left: 400px;
-	padding-right: 400px;
-	padding-top: 50px;
-}
-.theePoint {
-	padding-left: 400px;
-	padding-right: 400px;
-	padding-top: 50px;
-}
-.sroki h3 {
-	padding-top: 50px;
-	padding-left: 402px;
-}
-.sroki p {
-	padding-left: 1110px;
-	margin-top: -30px;
-	font-weight: 800;
-	font-size: 22px;
-}
-.textSum h3 {
-	padding-top: 10px;
-	padding-left: 402px;
-}
-/*.textSum p {
-	padding-left: 1110px;
-	margin-top: -30px;
-	font-weight: 800;
-	font-size: 22px;
-}*/
-
-.textSum p {
-	margin-left: 400px;
+	font-weight: 500;
+	margin-left: 490px;
+	margin-top: 30px;
 }
 
+/* Блок с отзывами */
 
-.taSamayaKnopka {
-	padding-left: 400px;
-}
-
-
-.modal-header h5{
-	padding-left: 110px;
-}
-
-/*Шестой блок (Статистика)*/
-.textUnderSix {
-	background: url(../img/фон.jpg)0px 0px /cover no-repeat;
-	height: 400px;
+.reviews {
+	background: url(../img/ripovo.jpg)0px -200px;
+	height: 800px;
 	width: 100%;
 }
-.textUnderSix h2 {
-	padding-top: 80px;
-	font-size: 28px;
-	text-align: center;
-	text-transform: uppercase;
-	color: #0093a1;
-}
-.A p {
-	padding-left: 1250px;
-	padding-top: 150px;
-	font-weight: bold;
-	font-size: 24px;
-}
-.b p {
-	padding-left: 900px;
-	margin-top: -45px;
-	font-weight: bold;
-	font-size: 24px;
-}
-.c p {
-	font-weight: bold;
-	font-size: 24px;
-	padding-left: 600px;
-	margin-top: -50px;
-}
-.d p {
-	font-weight: bold;
-	font-size: 24px;
-	padding-left: 300px;
-	margin-top: -50px;	
-}
-.myStatCLient p {
-	color: black;
-	font-size: 16px;
-	text-transform: uppercase;
-	font-weight: bold;
-	margin-left: 200px;
-}
-.myStatCLientTwo p {
-	color: black;
-	font-size: 16px;
-	text-transform: uppercase;
-	font-weight: bold;
-	margin-left: 560px;	
-	margin-top: -35px;
-}
-.myStatCLientTree p {
-	color: black;
-	font-size: 16px;
-	text-transform: uppercase;
-	font-weight: bold;
-	margin-left: 820px;	
-	margin-top: -37px;
-}
-.myStatCLientFour p {
-	color: black;
-	font-size: 16px;
-	text-transform: uppercase;
-	font-weight: bold;
-	margin-left: 1190px;
-	margin-top: -40px;
-}
-/*.textUnderSix li{
-	float: left;
-	color: black;
-	font-size: 16px;
-	text-transform: uppercase;
-	margin-left: 160px;
-	font-weight: bold;
-	color: black;
-}*/
-/*Седьмой блок (Отзывы)*/
-/*.reviews {
-	background: url(../img/copy.png) 790px 380px /auto 2% no-repeat,
-				url(../img/копия.png) 755px 380px /auto 2% no-repeat,
-				url(../img/Оранж.png) 720px 380px /auto 2% no-repeat,
-				url(../img/img_442292.png) 729px 120px /auto 25% no-repeat;
-	height: 500px;
-}
+
+
+
+
 .reviews h2 {
-	font-size: 28px;
 	text-align: center;
-	text-transform: uppercase;
-	padding-top: 50px;
-	color: #0093a1;
+	font-weight: 700;
+	font-size: 38px;
+	padding-top: 35px;
+	color: white;
 }
-.reviews p {
 
-	text-align: center;
-	font-size: 16px;
-	padding-top: 200px;
-}
-.underR h3 {
-	text-align: center;
-	font-size: 14px;
-	padding-top: 20px;
-}*/
-
-
-
-
-
-
-/*Восьмой блок (Контакты)*/
-.contackt {
-	width: 100%;
+/* .reviews  {
 	height: 700px;
-	background: url(../img/tryba.png)1010px 220px /auto 5% no-repeat,
-				url(../img/konvert.png)480px 220px /auto 5% no-repeat,
-				url(../img/pgpgpgp.jpg)0px 0px /auto 120% no-repeat;
+	width: 700px;
+	margin-left: 400px;
+	margin-top: 100px;
+} */
+
+/*  Стили для слайдера отзывов */
+
+#carouselExampleCaptions {
+	margin-top: 60px;
+	margin-left: 500px;
+	width: 500px;
+	height: 430px;
 }
-.contackt h2 {
-	font-size: 32px;
-	text-align: center;
-	text-transform: uppercase;
-	color: white;
-	padding-top: 50px;
-	color: #fff;
+
+#carouselExampleCaptions h5 {
+	color: black;
+	font-size: 24px;
 }
-.contackt p {
-	text-align: center;
-	font-size: 16px;
-	padding-top: 20px;
-	color: white;
+
+#carouselExampleCaptions p {
+	color: #000000;
+	margin-top: 20px;
 }
-.underContackt li {
-	float: left;
-	color: white;
-	padding-top: 120px;
-	padding-left: 360px;
+
+
+.carousel-control-prev span {
+	color: #000000;
 }
-.nadpis h3 {
-	text-align: center;
-	color: white;
-	padding-top: 200px;
-	margin: 0px 0px 15px 0px;
-}
-.input-group {
-	padding-left: 500px;
-	padding-right: 500px;
-}
-.mb-3 {
-	padding-left: 500px;
-	padding-right: 500px;
-}
-.contackt button {
-	margin-top: 25px;
-	margin-left: 730px;
-}
-/*подвал*/
+
+
+
+/* Подвал */
+
 .footer {
 	width: 100%;
 	height: 50px;
-	background: #008c9e;
+	background: black;
 }
+
 .footer p {
 	color: white;
 	text-align: center;
-	padding-top: 10px;
+	padding-top: 15px;
 	font-size: 12px;
 }
+
