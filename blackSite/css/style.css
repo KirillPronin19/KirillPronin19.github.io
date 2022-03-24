@@ -1,0 +1,386 @@
+  body{
+	font-family: Arial, sans-serif;
+}
+
+ @font-face {
+	font-family: "MB-EvilGhost";
+	font-style: normal;
+	font-weight: 400;
+	/* Браузер сначала попробует найти шрифт локально */
+	src: local("MB-EvilGhost"),
+		 /* Если не получилось, загрузит woff2 */
+		 url("/fonts/roboto.woff2") format("woff2"),
+		 /* Если браузер не поддерживает woff2, загрузит woff */
+		 url("/fonts/roboto.woff") format("woff");
+  } 
+
+  @font-face {
+	font-family: 'Conv_MB-EvilGhost_Font';
+	src: url('../fonts/MB-EvilGhost_Font.eot');
+	src: local('☺'), url('../fonts/MB-EvilGhost_Font.woff') format('woff'), url('fonts/MB-EvilGhost_Font.ttf') format('truetype'), url('fonts/MB-EvilGhost_Font.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+  
+
+
+nav{
+	width: 100%;
+	height: 60px;
+	background: black;
+	position: fixed;
+	z-index: 3;
+}
+
+.menu a {
+	color: white;
+	text-decoration: none;
+}
+
+/* MB-EvilGhost */
+
+.logo{
+	color: #fff;
+	font-size: 28px;
+	margin-left: 188px;
+	padding-top: 5px;
+}
+
+.menu {
+	float: left;
+	padding-left: 732px;
+	margin-top: -30px;
+	text-decoration: none;
+}
+
+
+.menu li{
+	float: left;
+	/*line-height: 60px;*/
+	color: white;
+	margin-right: 40px;
+	font-size: 16px;
+	text-transform: uppercase;
+	text-decoration: none; 
+}
+
+/* Фронтальный блок */
+
+.first {
+	background: url(../img/vira.jpg)fixed;
+	height: 600px;
+	width: 100%;
+}
+
+.first h1 {
+	padding-top: 200px;
+	padding-left: 300px;
+	font-size: 62px;
+	color: #dedcdc;
+}
+
+.first h4 {
+	padding-left: 300px;
+	color: #cfcfcf;
+}
+
+.knopka{
+	padding-left: 300px;
+	padding-top: 30px;
+}
+
+/* О сайте */
+
+.second {
+	height: 600px;
+	width: 100%;
+}
+
+.second h2{
+	margin-left: 735px;
+	margin-top: 50px;
+	font-size: 38px;
+	font-weight: 700;
+}
+
+.second p{
+	margin-top: 50px;
+	margin-left: 200px;
+	margin-right: 200px;
+	font-size: 16px;
+	font-weight: 500;
+}
+
+.circle {
+	margin-top: 50px;
+	margin-left: 690px;
+	height: 200px;
+	width: 200px;
+	border-radius: 50%;  /* Скругление углов изображения */
+    border: 5px solid #fff; /* Цвет и ширину рамки */
+    box-shadow: 2px 1px 5px #999999; /* Цвет и размер тени */
+}
+
+/* Вопрос-ответ */
+
+.questions {
+	width: 100%;
+	height: 1000px;
+}
+
+.questions h2{
+	margin-left: 700px;
+	margin-top:0px;
+	font-size: 38px;
+	font-weight: 700;
+}
+
+.questions h6{
+	text-align: center;
+	margin-top: 15px;
+	opacity: 0.6;
+}
+
+/* Стили для самих карточек */
+
+.firstBlock { 		/*Первая карточка*/
+	border: 3px solid #000000;
+	background-color: #000000;
+	width: 300px;
+	height: 250px;
+	margin-top: 100px;
+	margin-left: 235px;
+}
+
+.firstBlock h4 {
+	margin-top: 10px;
+	font-size: 21px;
+	font-weight: bold;
+	color: #fff;
+	text-align: center;
+}
+
+.firstBlock p {
+	font-weight: 600;
+	color: #fff;
+	padding-top: 15px;
+	text-align: center;
+}
+
+.secondBlock { 		/*Вторая карточка*/
+	border: 3px solid #cfcfcf;
+	width: 300px;
+	height: 250px;
+	margin-top: -250px;
+	margin-left: 635px;
+}
+
+.secondBlock h4 {
+	margin-top: 10px;
+	font-size: 21px;
+	font-weight: bold;
+	text-align: center;
+}
+
+.secondBlock p {
+	font-weight: 600;
+	color: rgb(0, 0, 0);
+	padding-top: 15px;
+	text-align: center;
+}
+
+.thirdBlock {		/*Третья карточка*/
+	border: 3px solid #000000;
+	background-color: #000000;
+	width: 300px;
+	height: 250px;
+	margin-top: -250px;
+	margin-left: 1035px; 
+}
+
+.thirdBlock h4 {
+	margin-top: 10px;
+	font-size: 21px;
+	text-align: center;
+	font-weight: bold;
+	color: #fff;
+}
+
+.thirdBlock p {
+	font-weight: 600;
+	color: #fff;
+	padding-top: 15px;
+	text-align: center;
+}
+
+
+.FourthBlock {		/* Четвертая карточка*/
+	border: 3px solid #cfcfcf;
+	width: 300px;
+	height: 250px;
+	margin-top: 100px;
+	margin-left: 235px;
+}
+
+.FourthBlock h4 {
+	margin-top: 10px;
+	font-size: 21px;
+	text-align: center;
+	font-weight: bold;
+}
+
+.FourthBlock p {
+	text-align: center;
+	padding-top: 15px;
+}
+
+.fifthBlock {		/* Пятая карточка*/
+	border: 3px solid #000000;
+	background-color: #000000;
+	width: 300px;
+	height: 250px;
+	margin-top: -250px;
+	margin-left: 635px;
+}
+
+.fifthBlock h4 {
+	margin-top: 10px;
+	font-size: 21px;
+	text-align: center;
+	font-weight: bold;
+	color: #fff;
+}
+
+.fifthBlock p {
+	color: #fff;
+	padding-top: 15px;
+	text-align: center;
+}
+
+.sixthBlock {		/* Шестая карточка*/
+	border: 3px solid #cfcfcf;
+	width: 300px;
+	height: 250px;
+	margin-top: -250px;
+	margin-left: 1035px; 
+}
+
+.sixthBlock h4 {
+	margin-top: 10px;
+	font-size: 21px;
+	text-align: center;
+	font-weight: bold;
+}
+
+.sixthBlock p {
+	text-align: center;
+	padding-top: 15px;
+}
+
+/* Категории */
+
+.categories {
+	/* background: url(../img/sky.jpg)fixed; */
+	width: 100%;
+	height: 1000px;
+}
+
+.categories h2 {
+	text-align: center;
+	font-weight: 700;
+	font-size: 38px;
+	padding-top: 35px;
+	color: rgb(0, 0, 0);
+}
+
+.fotorama {			/* Слайдер */
+	height: 700px;
+	width: 700px;
+	margin-left: 400px;
+	margin-top: 100px;
+}
+
+.categories h3 {
+	text-align: center;	
+	font-weight: 700;
+	margin-top: -220px;
+}
+
+.categories p {
+	width: 500px;
+	text-align: center;
+	font-weight: 500;
+	margin-left: 490px;
+	margin-top: 30px;
+}
+
+
+
+/* Блок с отзывами */
+
+.reviews {
+	background: url(../img/ripovo.jpg)0px -200px;
+	height: 800px;
+	width: 100%;
+}
+
+
+
+
+.reviews h2 {
+	text-align: center;
+	font-weight: 700;
+	font-size: 38px;
+	padding-top: 35px;
+	color: white;
+}
+
+/* .reviews  {
+	height: 700px;
+	width: 700px;
+	margin-left: 400px;
+	margin-top: 100px;
+} */
+
+/*  Стили для слайдера отзывов */
+
+#carouselExampleCaptions {
+	margin-top: 60px;
+	margin-left: 500px;
+	width: 500px;
+	height: 430px;
+}
+
+#carouselExampleCaptions h5 {
+	color: black;
+	font-size: 24px;
+}
+
+#carouselExampleCaptions p {
+	color: #000000;
+	margin-top: 20px;
+}
+
+
+.carousel-control-prev span {
+	color: #000000;
+}
+
+
+
+
+/* Подвал */
+
+.footer {
+	width: 100%;
+	height: 50px;
+	background: black;
+}
+
+.footer p {
+	color: white;
+	text-align: center;
+	padding-top: 15px;
+	font-size: 12px;
+}
+
